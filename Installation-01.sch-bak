@@ -439,4 +439,118 @@ Text GLabel 4650 -350 1    50   Input ~ 0
 3.3V
 Text GLabel 3100 -350 1    50   Input ~ 0
 3.3V
+Wire Wire Line
+	-200 2650 -200 2700
+$Comp
+L power:GND #PWR?
+U 1 1 5EA57BFE
+P -200 2700
+F 0 "#PWR?" H -200 2450 50  0001 C CNN
+F 1 "GND" H -195 2527 50  0000 C CNN
+F 2 "" H -200 2700 50  0001 C CNN
+F 3 "" H -200 2700 50  0001 C CNN
+	1    -200 2700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 400  2250
+NoConn ~ 400  2350
+$Comp
+L Device:R_Small R1
+U 1 1 5EA5AF60
+P 600 1350
+F 0 "R1" V 500 1350 50  0000 C CNN
+F 1 "22k" V 600 1350 50  0000 C CNN
+F 2 "" H 600 1350 50  0001 C CNN
+F 3 "~" H 600 1350 50  0001 C CNN
+	1    600  1350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5EA5BF29
+P 600 1450
+F 0 "R2" V 700 1450 50  0000 C CNN
+F 1 "22k" V 600 1450 50  0000 C CNN
+F 2 "" H 600 1450 50  0001 C CNN
+F 3 "~" H 600 1450 50  0001 C CNN
+	1    600  1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	400  1450 500  1450
+Wire Wire Line
+	400  1350 500  1350
+Wire Wire Line
+	700  1350 750  1350
+Wire Wire Line
+	700  1450 750  1450
+$Comp
+L power:GND #PWR?
+U 1 1 5EA66271
+P 800 1400
+F 0 "#PWR?" H 800 1150 50  0001 C CNN
+F 1 "GND" V 805 1272 50  0000 R CNN
+F 2 "" H 800 1400 50  0001 C CNN
+F 3 "" H 800 1400 50  0001 C CNN
+	1    800  1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	750  1350 750  1400
+Wire Wire Line
+	800  1400 750  1400
+Connection ~ 750  1400
+Wire Wire Line
+	750  1400 750  1450
+$Comp
+L Device:R_Small R3
+U 1 1 5EA6C14C
+P -500 2900
+F 0 "R3" V -600 2900 50  0000 C CNN
+F 1 "22k" V -500 2900 50  0000 C CNN
+F 2 "" H -500 2900 50  0001 C CNN
+F 3 "~" H -500 2900 50  0001 C CNN
+	1    -500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EA6E188
+P -500 3150
+F 0 "#PWR?" H -500 2900 50  0001 C CNN
+F 1 "GND" H -495 2977 50  0000 C CNN
+F 2 "" H -500 3150 50  0001 C CNN
+F 3 "" H -500 3150 50  0001 C CNN
+	1    -500 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-500 2650 -500 2700
+Wire Wire Line
+	-500 3000 -500 3100
+$Comp
+L Device:C_Small C11
+U 1 1 5EA75D65
+P -750 2900
+F 0 "C11" H -950 2950 50  0000 L CNN
+F 1 "4.7n" H -950 2850 50  0000 L CNN
+F 2 "" H -750 2900 50  0001 C CNN
+F 3 "~" H -750 2900 50  0001 C CNN
+	1    -750 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-500 2700 -750 2700
+Wire Wire Line
+	-750 2700 -750 2800
+Connection ~ -500 2700
+Wire Wire Line
+	-500 2700 -500 2800
+Wire Wire Line
+	-750 3000 -750 3100
+Wire Wire Line
+	-750 3100 -500 3100
+Connection ~ -500 3100
+Wire Wire Line
+	-500 3100 -500 3150
 $EndSCHEMATC
