@@ -226,10 +226,6 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1950 77
 	1    1800 7750
 	1    0    0    -1  
 $EndComp
-Text GLabel 5500 9450 2    50   BiDi ~ 0
-D+
-Text GLabel 5500 9350 2    50   BiDi ~ 0
-D-
 Wire Wire Line
 	2400 7650 2450 7650
 Wire Wire Line
@@ -252,10 +248,10 @@ Wire Wire Line
 Connection ~ 2450 7900
 Wire Wire Line
 	2450 7900 2450 7950
-Text GLabel 2500 7900 2    50   Input ~ 0
-D+
-Text GLabel 2500 7700 2    50   Input ~ 0
-D-
+Text GLabel 2500 7900 2    50   BiDi ~ 0
+DBUS+
+Text GLabel 2500 7700 2    50   BiDi ~ 0
+DBUS-
 Wire Wire Line
 	2400 7150 2450 7150
 Text GLabel 2450 7150 2    50   Input ~ 0
@@ -7380,4 +7376,384 @@ F 3 "~" H 36450 2250 50  0001 C CNN
 	1    36450 2250
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	16050 1550 16050 1750
+Wire Wire Line
+	16050 1750 34600 1750
+Wire Wire Line
+	34600 1750 34600 2050
+Wire Wire Line
+	35950 2950 35950 2650
+Wire Wire Line
+	35950 2650 16050 2650
+Wire Wire Line
+	16050 2650 16050 2450
+Wire Wire Line
+	16050 3350 16050 3550
+Wire Wire Line
+	16050 3550 34600 3550
+Wire Wire Line
+	34600 3550 34600 3850
+Wire Wire Line
+	34600 4750 34600 4450
+Wire Wire Line
+	34600 4450 16050 4450
+Wire Wire Line
+	16050 4450 16050 4250
+Wire Wire Line
+	16050 5150 16050 5350
+Wire Wire Line
+	16050 5350 33250 5350
+Wire Wire Line
+	33250 5350 33250 5650
+NoConn ~ 16050 6050
+$Comp
+L Power_Protection:USBLC6-2SC6 U2
+U 1 1 638A9965
+P 1500 5950
+F 0 "U2" H 1050 6500 50  0000 C CNN
+F 1 "USBLC6-2SC6" H 1050 6400 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 750 6350 50  0001 C CNN
+F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 1700 6300 50  0001 C CNN
+	1    1500 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 5450 1500 5350
+Text GLabel 1500 5250 1    50   Input ~ 0
+VBUS
+Wire Wire Line
+	1500 6450 1500 6550
+$Comp
+L power:GND #PWR?
+U 1 1 639F1862
+P 1500 6550
+F 0 "#PWR?" H 1500 6300 50  0001 C CNN
+F 1 "GND" H 1505 6377 50  0000 C CNN
+F 2 "" H 1500 6550 50  0001 C CNN
+F 3 "" H 1500 6550 50  0001 C CNN
+	1    1500 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 639F40D8
+P 1800 5350
+F 0 "#PWR?" H 1800 5100 50  0001 C CNN
+F 1 "GND" V 1805 5222 50  0000 R CNN
+F 2 "" H 1800 5350 50  0001 C CNN
+F 3 "" H 1800 5350 50  0001 C CNN
+	1    1800 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 639F43C0
+P 1650 5350
+F 0 "C?" V 1421 5350 50  0000 C CNN
+F 1 "100n" V 1512 5350 50  0000 C CNN
+F 2 "" H 1650 5350 50  0001 C CNN
+F 3 "~" H 1650 5350 50  0001 C CNN
+	1    1650 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 5350 1750 5350
+Wire Wire Line
+	1550 5350 1500 5350
+Connection ~ 1500 5350
+Wire Wire Line
+	1500 5350 1500 5250
+Wire Wire Line
+	1000 5850 900  5850
+Wire Wire Line
+	1000 6050 900  6050
+Wire Wire Line
+	2000 6050 2100 6050
+Wire Wire Line
+	2000 5850 2100 5850
+Text GLabel 900  6050 0    50   BiDi ~ 0
+D-
+Text GLabel 2100 6050 2    50   BiDi ~ 0
+D+
+Text GLabel 900  5850 0    50   BiDi ~ 0
+DBUS-
+Text GLabel 2100 5850 2    50   BiDi ~ 0
+DBUS+
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 63E6633A
+P 850 2900
+F 0 "H1" V 804 3050 50  0000 L CNN
+F 1 "MountingHole_Pad" V 895 3050 50  0000 L CNN
+F 2 "" H 850 2900 50  0001 C CNN
+F 3 "~" H 850 2900 50  0001 C CNN
+	1    850  2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 63E695B6
+P 900 3100
+F 0 "H2" H 1000 3146 50  0000 L CNN
+F 1 "MountingHole" H 1000 3055 50  0000 L CNN
+F 2 "" H 900 3100 50  0001 C CNN
+F 3 "~" H 900 3100 50  0001 C CNN
+	1    900  3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 63E6C1F7
+P 900 3300
+F 0 "H3" H 1000 3346 50  0000 L CNN
+F 1 "MountingHole" H 1000 3255 50  0000 L CNN
+F 2 "" H 900 3300 50  0001 C CNN
+F 3 "~" H 900 3300 50  0001 C CNN
+	1    900  3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 63F0BE48
+P 900 3500
+F 0 "H4" H 1000 3546 50  0000 L CNN
+F 1 "MountingHole" H 1000 3455 50  0000 L CNN
+F 2 "" H 900 3500 50  0001 C CNN
+F 3 "~" H 900 3500 50  0001 C CNN
+	1    900  3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 63FABAC8
+P 900 3700
+F 0 "H5" H 1000 3746 50  0000 L CNN
+F 1 "MountingHole" H 1000 3655 50  0000 L CNN
+F 2 "" H 900 3700 50  0001 C CNN
+F 3 "~" H 900 3700 50  0001 C CNN
+	1    900  3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 6404B7A4
+P 900 3900
+F 0 "H6" H 1000 3946 50  0000 L CNN
+F 1 "MountingHole" H 1000 3855 50  0000 L CNN
+F 2 "" H 900 3900 50  0001 C CNN
+F 3 "~" H 900 3900 50  0001 C CNN
+	1    900  3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 640EB3BA
+P 900 4100
+F 0 "H7" H 1000 4146 50  0000 L CNN
+F 1 "MountingHole" H 1000 4055 50  0000 L CNN
+F 2 "" H 900 4100 50  0001 C CNN
+F 3 "~" H 900 4100 50  0001 C CNN
+	1    900  4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 6418B100
+P 900 4300
+F 0 "H8" H 1000 4346 50  0000 L CNN
+F 1 "MountingHole" H 1000 4255 50  0000 L CNN
+F 2 "" H 900 4300 50  0001 C CNN
+F 3 "~" H 900 4300 50  0001 C CNN
+	1    900  4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 6422AC47
+P 900 4500
+F 0 "H9" H 1000 4546 50  0000 L CNN
+F 1 "MountingHole" H 1000 4455 50  0000 L CNN
+F 2 "" H 900 4500 50  0001 C CNN
+F 3 "~" H 900 4500 50  0001 C CNN
+	1    900  4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 642CA7E6
+P 900 4700
+F 0 "H10" H 1000 4746 50  0000 L CNN
+F 1 "MountingHole" H 1000 4655 50  0000 L CNN
+F 2 "" H 900 4700 50  0001 C CNN
+F 3 "~" H 900 4700 50  0001 C CNN
+	1    900  4700
+	1    0    0    -1  
+$EndComp
+Text GLabel 750  2900 0    50   Input ~ 0
+CASE
+$Comp
+L Diode:1N914 D3
+U 1 1 644B8699
+P 2250 2950
+F 0 "D3" H 2250 2734 50  0000 C CNN
+F 1 "1N914" H 2250 2825 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 2250 2775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 2250 2950 50  0001 C CNN
+	1    2250 2950
+	-1   0    0    1   
+$EndComp
+Text GLabel 2100 2950 0    50   Input ~ 0
+Case
+$Comp
+L Device:R_Small R?
+U 1 1 645602CD
+P 2700 3100
+F 0 "R?" H 2759 3146 50  0000 L CNN
+F 1 "1M" H 2759 3055 50  0000 L CNN
+F 2 "" H 2700 3100 50  0001 C CNN
+F 3 "~" H 2700 3100 50  0001 C CNN
+	1    2700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6455D320
+P 2450 3100
+F 0 "C?" H 2542 3146 50  0000 L CNN
+F 1 "4.7n" H 2542 3055 50  0000 L CNN
+F 2 "" H 2450 3100 50  0001 C CNN
+F 3 "~" H 2450 3100 50  0001 C CNN
+	1    2450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64565CD7
+P 2700 3300
+F 0 "#PWR?" H 2700 3050 50  0001 C CNN
+F 1 "GND" H 2705 3127 50  0000 C CNN
+F 2 "" H 2700 3300 50  0001 C CNN
+F 3 "" H 2700 3300 50  0001 C CNN
+	1    2700 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 3200 2700 3250
+Wire Wire Line
+	2700 3000 2700 2950
+Wire Wire Line
+	2700 2950 2450 2950
+Wire Wire Line
+	2450 3000 2450 2950
+Connection ~ 2450 2950
+Wire Wire Line
+	2450 2950 2400 2950
+Wire Wire Line
+	2450 3200 2450 3250
+Wire Wire Line
+	2450 3250 2700 3250
+Connection ~ 2700 3250
+Wire Wire Line
+	2700 3250 2700 3300
+$Comp
+L Connector:Conn_ARM_JTAG_SWD_10 J2
+U 1 1 64B3560A
+P 4800 3450
+F 0 "J2" H 4357 3496 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_10" H 4357 3405 50  0000 R CNN
+F 2 "" H 4800 3450 50  0001 C CNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 4450 2200 50  0001 C CNN
+	1    4800 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64B38F6E
+P 4750 4150
+F 0 "#PWR?" H 4750 3900 50  0001 C CNN
+F 1 "GND" H 4755 3977 50  0000 C CNN
+F 2 "" H 4750 4150 50  0001 C CNN
+F 3 "" H 4750 4150 50  0001 C CNN
+	1    4750 4150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5300 3650
+NoConn ~ 5300 3550
+Wire Wire Line
+	4700 4050 4700 4100
+Wire Wire Line
+	4700 4100 4750 4100
+Wire Wire Line
+	4800 4100 4800 4050
+Wire Wire Line
+	4750 4150 4750 4100
+Connection ~ 4750 4100
+Wire Wire Line
+	4750 4100 4800 4100
+Wire Wire Line
+	4800 2850 4800 2750
+Wire Wire Line
+	5300 3150 5400 3150
+Wire Wire Line
+	5300 3350 5400 3350
+Wire Wire Line
+	5300 3450 5400 3450
+Text GLabel 5400 3450 2    50   Input ~ 0
+SWDIO
+Text GLabel 5400 3150 2    50   Input ~ 0
+NRST
+Text GLabel 5400 3350 2    50   Input ~ 0
+SWCLK
+Text GLabel 4800 2750 1    50   Input ~ 0
+3.3V
+$Comp
+L more-keeb-parts:EC11E18244A5-Incremental-Rotary-Encoder E1
+U 1 1 65147EF9
+P 2600 4200
+F 0 "E1" H 2550 4600 50  0000 L CNN
+F 1 "EC11E18244A5" H 2350 4500 50  0000 L CNN
+F 2 "" H 2250 4500 50  0001 C CNN
+F 3 "" H 2250 4500 50  0001 C CNN
+	1    2600 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6529FB78
+P 2250 4400
+F 0 "#PWR?" H 2250 4150 50  0001 C CNN
+F 1 "GND" V 2255 4272 50  0000 R CNN
+F 2 "" H 2250 4400 50  0001 C CNN
+F 3 "" H 2250 4400 50  0001 C CNN
+	1    2250 4400
+	0    1    1    0   
+$EndComp
+Text GLabel 2250 4000 0    50   Output ~ 0
+E_CW
+Text GLabel 5500 8950 2    50   Input ~ 0
+E_CW
+Text GLabel 2250 4200 0    50   Output ~ 0
+E_CCW
+Text GLabel 2250 4300 0    50   BiDi ~ 0
+E_Button
+$Comp
+L power:GND #PWR?
+U 1 1 654C65A9
+P 2250 4100
+F 0 "#PWR?" H 2250 3850 50  0001 C CNN
+F 1 "GND" V 2255 3972 50  0000 R CNN
+F 2 "" H 2250 4100 50  0001 C CNN
+F 3 "" H 2250 4100 50  0001 C CNN
+	1    2250 4100
+	0    1    1    0   
+$EndComp
+Text GLabel 5500 9150 2    50   Input ~ 0
+E_Button
+Text GLabel 5500 9050 2    50   Input ~ 0
+E_CCW
+Text GLabel 5500 9350 2    50   BiDi ~ 0
+D-
+Text GLabel 5500 9450 2    50   BiDi ~ 0
+D+
 $EndSCHEMATC
