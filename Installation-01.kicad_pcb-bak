@@ -949,7 +949,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94BCAA)
-    (at 244.475 263.525)
+    (at 243.995 261.8875)
     (path /5EB2A9D3)
     (fp_text reference MX74 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -995,7 +995,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E945C58)
-    (at 263.525 238.125)
+    (at 272.51 238.125)
     (path /5EB07693)
     (fp_text reference MX73 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1087,7 +1087,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E945BCA)
-    (at 175.7 15.81)
+    (at 239.7125 301.625)
     (path /5EB87DC7)
     (fp_text reference MX70 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1179,7 +1179,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E945B62)
-    (at 225.425 263.525)
+    (at 224.985 261.8875)
     (path /5EB2A9C7)
     (fp_text reference MX68 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1225,7 +1225,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94BDDC)
-    (at 244.475 238.125)
+    (at 253.5 238.125)
     (path /5EB02348)
     (fp_text reference MX67 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1317,7 +1317,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E945AC6)
-    (at 43.68 151.67)
+    (at 230.1875 320.675)
     (path /5EB87E57)
     (fp_text reference MX65 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1363,7 +1363,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94B6D7)
-    (at 80.73 122.09)
+    (at 220.6625 301.625)
     (path /5EB87DBB)
     (fp_text reference MX64 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1455,7 +1455,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94BA70)
-    (at 206.375 263.525)
+    (at 205.975 261.8875)
     (path /5EB2A9BB)
     (fp_text reference MX62 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1501,7 +1501,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E9459F6)
-    (at 225.425 238.125)
+    (at 234.49 238.125)
     (path /5EB0233C)
     (fp_text reference MX61 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1593,7 +1593,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94598E)
-    (at 214.31 31.96)
+    (at 211.1375 320.675)
     (path /5EB87E4B)
     (fp_text reference MX59 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1639,7 +1639,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94595A)
-    (at 170.3 96.56)
+    (at 201.6125 301.625)
     (path /5EB87DAF)
     (fp_text reference MX58 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1731,7 +1731,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E9458F2)
-    (at 187.325 263.525)
+    (at 186.965 261.8875)
     (path /5EB2A9AF)
     (fp_text reference MX56 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1777,7 +1777,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E9458BE)
-    (at 206.375 238.125)
+    (at 215.48 238.125)
     (path /5EB02330)
     (fp_text reference MX55 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1823,7 +1823,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E945868)
-    (at 154.09 64.26)
+    (at 192.0875 320.675)
     (path /5EB87E3F)
     (fp_text reference MX53 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1869,7 +1869,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94B770)
-    (at 98.36 122.09)
+    (at 182.5625 301.625)
     (path /5EB87DA3)
     (fp_text reference MX52 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1961,7 +1961,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E9457CC)
-    (at 168.275 263.525)
+    (at 167.955 261.8875)
     (path /5EB2A9A3)
     (fp_text reference MX50 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2007,7 +2007,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E945798)
-    (at 180.975 238.125)
+    (at 186.965 238.125)
     (path /5EAFB5DB)
     (fp_text reference MX49 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2099,7 +2099,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E945730)
-    (at 78.94 154.39)
+    (at 173.0375 320.675)
     (path /5EB87E33)
     (fp_text reference MX47 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2145,7 +2145,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E9456FC)
-    (at 231.94 31.96)
+    (at 163.5125 301.625)
     (path /5EB87D97)
     (fp_text reference MX46 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2237,7 +2237,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E945694)
-    (at 149.225 263.525)
+    (at 148.945 261.8875)
     (path /5EB2A997)
     (fp_text reference MX44 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2283,7 +2283,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E945660)
-    (at 161.925 238.125)
+    (at 167.955 238.125)
     (path /5EAFB5CF)
     (fp_text reference MX43 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2329,7 +2329,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94560A)
-    (at 133.62 100.61)
+    (at 153.9875 320.675)
     (path /5EB87E27)
     (fp_text reference MX41 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2375,7 +2375,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94B809)
-    (at 115.99 121.45)
+    (at 144.4625 301.625)
     (path /5EB87D8B)
     (fp_text reference MX40 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2467,7 +2467,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94556E)
-    (at 130.175 263.525)
+    (at 129.935 261.8875)
     (path /5EB2A98B)
     (fp_text reference MX38 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2513,7 +2513,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94553A)
-    (at 142.875 238.125)
+    (at 148.945 238.125)
     (path /5EAFB5C3)
     (fp_text reference MX37 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2559,7 +2559,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E9454E0)
-    (at 224.61 48.11)
+    (at 134.9375 320.675)
     (path /5EB87E1B)
     (fp_text reference MX35 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2605,7 +2605,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E9454AC)
-    (at -32.385 166.37)
+    (at 125.4125 301.625)
     (path /5EB87D7F)
     (fp_text reference MX34 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2697,7 +2697,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94AD50)
-    (at 111.125 263.525)
+    (at 110.925 261.8875)
     (path /5EB2A97F)
     (fp_text reference MX32 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2743,7 +2743,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E945410)
-    (at 123.825 238.125)
+    (at 129.935 238.125)
     (path /5EAF5F52)
     (fp_text reference MX31 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2789,7 +2789,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94ADE9)
-    (at 63.1 97.89)
+    (at 115.8875 320.675)
     (path /5EB87E0F)
     (fp_text reference MX29 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2835,7 +2835,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E9453A8)
-    (at 8.42 151.67)
+    (at 106.3625 301.625)
     (path /5EB87D73)
     (fp_text reference MX28 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2927,7 +2927,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94AE82)
-    (at 92.075 263.525)
+    (at 91.915 261.8875)
     (path /5EB2A973)
     (fp_text reference MX26 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2973,7 +2973,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94B2C0)
-    (at 98.425 238.125)
+    (at 101.42 238.125)
     (path /5EAF5F46)
     (fp_text reference MX25 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3019,7 +3019,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E9452B2)
-    (at 8.42 135.52)
+    (at 96.8375 320.675)
     (path /5EB87E03)
     (fp_text reference MX23 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3065,7 +3065,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94B359)
-    (at 82.15 73.64)
+    (at 87.3125 301.625)
     (path /5EB87D67)
     (fp_text reference MX22 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3157,7 +3157,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94AF8A)
-    (at 73.025 263.525)
+    (at 72.905 261.8875)
     (path /5EB2A967)
     (fp_text reference MX20 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3203,7 +3203,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94B023)
-    (at 79.375 238.125)
+    (at 82.41 238.125)
     (path /5EAF5F3A)
     (fp_text reference MX19 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3295,7 +3295,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94B0BC)
-    (at 43.68 119.37)
+    (at 77.7875 320.675)
     (path /5EB87DF7)
     (fp_text reference MX17 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3341,7 +3341,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E94B155)
-    (at 99.78 73)
+    (at 68.2625 301.625)
     (path /5EB87D5B)
     (fp_text reference MX16 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3433,7 +3433,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E9450DE)
-    (at 53.975 263.525)
+    (at 53.895 261.8875)
     (path /5EB2A95B)
     (fp_text reference MX14 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3479,7 +3479,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E9450AA)
-    (at 60.325 238.125)
+    (at 63.4 238.125)
     (path /5EAEE735)
     (fp_text reference MX13 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3525,7 +3525,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E945054)
-    (at 152.67 96.56)
+    (at 58.7375 320.675)
     (path /5EB87DEB)
     (fp_text reference MX11 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3571,7 +3571,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E945020)
-    (at 114.2 138.24)
+    (at 49.2125 301.625)
     (path /5EB87D4F)
     (fp_text reference MX10 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3663,7 +3663,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E944FB8)
-    (at 34.925 263.525)
+    (at 34.885 261.8875)
     (path /5EB2A94F)
     (fp_text reference MX8 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3709,7 +3709,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E944F84)
-    (at 41.275 238.125)
+    (at 44.39 238.125)
     (path /5EAE8FE6)
     (fp_text reference MX7 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -3801,7 +3801,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap-Antishear (layer F.Cu) (tedit 5BC2AA2F) (tstamp 5E944EB2)
-    (at 15.875 263.525)
+    (at 15.875 261.8875)
     (path /5EB2A943)
     (fp_text reference MX2 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5711,7 +5711,7 @@
   )
 
   (module MX_Only:MXOnly-2U-Hotswap (layer F.Cu) (tedit 5C4553DE) (tstamp 5E94B9F3)
-    (at 273.05 263.525)
+    (at 272.51 261.8875)
     (path /5EB90784)
     (attr smd)
     (fp_text reference MX79 (at 0 3.048) (layer B.CrtYd)
@@ -5761,7 +5761,7 @@
   )
 
   (module MX_Only:MXOnly-2.25U-Hotswap (layer F.Cu) (tedit 5C455417) (tstamp 5E94BC2D)
-    (at 74.50625 17.835)
+    (at 270.66875 301.625)
     (path /5EB87DD3)
     (attr smd)
     (fp_text reference MX76 (at 0 3.048) (layer B.CrtYd)
@@ -5811,7 +5811,7 @@
   )
 
   (module MX_Only:MXOnly-2.25U-Hotswap (layer F.Cu) (tedit 5C455417) (tstamp 5E94B65A)
-    (at 20.97625 59.515)
+    (at 27.78125 320.675)
     (path /5EB87E63)
     (attr smd)
     (fp_text reference MX71 (at 0 3.048) (layer B.CrtYd)
@@ -6099,7 +6099,7 @@
   )
 
   (module MX_Only:MXOnly-2U-Hotswap (layer F.Cu) (tedit 5C4553DE) (tstamp 5E94B1E0)
-    (at 72.125 38.675)
+    (at 258.7025 320.675)
     (path /5EB87DDF)
     (attr smd)
     (fp_text reference MX5 (at 0 3.048) (layer B.CrtYd)
@@ -6149,7 +6149,7 @@
   )
 
   (module MX_Only:MXOnly-1.75U-Hotswap (layer F.Cu) (tedit 5BFF7B85) (tstamp 5E94B24B)
-    (at 113.75375 17.835)
+    (at 23.01875 301.625)
     (path /5EB87D43)
     (attr smd)
     (fp_text reference MX4 (at 0 3.048) (layer B.CrtYd)
