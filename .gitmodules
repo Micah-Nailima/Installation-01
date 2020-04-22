@@ -13,3 +13,6 @@
 [submodule "keyswitches.pretty"]
 	path = keyswitches.pretty
 	url = https://github.com/daprice/keyswitches.pretty
+[submodule "AcheronLibrary"]
+	path = AcheronLibrary
+	url = https://github.com/AcheronProject/AcheronLibrary
