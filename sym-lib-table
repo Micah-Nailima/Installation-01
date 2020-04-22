@@ -6,4 +6,5 @@
   (lib (name more-keeb-parts)(type Legacy)(uri ${KIPRJMOD}/more-keeb-parts.pretty/more-keeb-parts.lib)(options "")(descr ""))
   (lib (name TPS2001CDGNR)(type Legacy)(uri ${KIPRJMOD}/TPS2001CDGNR.pretty/TPS2001CDGNR.lib)(options "")(descr ""))
   (lib (name SSD1306_OLED-0.91-128x32)(type Legacy)(uri ${KIPRJMOD}/Display.pretty/SSD1306_OLED-0.91-128x32.lib)(options "")(descr ""))
+  (lib (name acheronSymbols)(type Legacy)(uri ${KIPRJMOD}/AcheronLibrary/symbols/acheronSymbols.lib)(options "")(descr ""))
 )
