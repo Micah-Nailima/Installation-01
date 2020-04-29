@@ -1,20 +1,20 @@
-[submodule "MX_Alps_Hybrid"]
-	path = MX_Alps_Hybrid
+[submodule "Libraries/MX_Alps_Hybrid"]
+	path = Libraries/MX_Alps_Hybrid
 	url = https://github.com/ai03-2725/MX_Alps_Hybrid
-[submodule "random-keyboard-parts.pretty"]
-	path = random-keyboard-parts.pretty
+[submodule "Libraries/random-keyboard-parts.pretty"]
+	path = Libraries/random-keyboard-parts.pretty
 	url = https://github.com/ai03-2725/random-keyboard-parts.pretty
-[submodule "Type-C.pretty"]
-	path = Type-C.pretty
+[submodule "Libraries/Type-C.pretty"]
+	path = Libraries/Type-C.pretty
 	url = https://github.com/ai03-2725/Type-C.pretty
-[submodule "WS2812B.pretty"]
-	path = WS2812B.pretty
+[submodule "Libraries/WS2812B.pretty"]
+	path = Libraries/WS2812B.pretty
 	url = https://github.com/ai03-2725/WS2812B.pretty
-[submodule "keyswitches.pretty"]
-	path = keyswitches.pretty
+[submodule "Libraries/keyswitches.pretty"]
+	path = Libraries/keyswitches.pretty
 	url = https://github.com/daprice/keyswitches.pretty
-[submodule "AcheronLibrary"]
-	path = AcheronLibrary
+[submodule "Libraries/AcheronLibrary"]
+	path = Libraries/AcheronLibrary
 	url = https://github.com/AcheronProject/AcheronLibrary
 [submodule "3D Model/KeyV2"]
 	path = 3D Model/KeyV2
