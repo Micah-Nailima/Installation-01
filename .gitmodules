@@ -16,3 +16,6 @@
 [submodule "AcheronLibrary"]
 	path = AcheronLibrary
 	url = https://github.com/AcheronProject/AcheronLibrary
+[submodule "3D Model/KeyV2"]
+	path = 3D Model/KeyV2
+	url = https://github.com/rsheldiii/KeyV2
