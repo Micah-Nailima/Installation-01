@@ -19,3 +19,6 @@
 [submodule "3D Model/KeyV2"]
 	path = 3D Model/KeyV2
 	url = https://github.com/rsheldiii/KeyV2
+[submodule "3D Models/KeyV2"]
+	path = 3D Models/KeyV2
+	url = https://github.com/rsheldiii/KeyV2
