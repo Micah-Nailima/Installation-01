@@ -4804,7 +4804,7 @@ U 1 1 63E6633A
 P 20200 7850
 F 0 "H1" V 20154 8000 50  0000 L CNN
 F 1 "MountingHole_Pad" V 20245 8000 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 20200 7850 50  0001 C CNN
+F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 20200 7850 50  0001 C CNN
 F 3 "~" H 20200 7850 50  0001 C CNN
 	1    20200 7850
 	0    1    1    0   
@@ -4815,7 +4815,7 @@ U 1 1 63E695B6
 P 20250 8050
 F 0 "H2" H 20350 8096 50  0000 L CNN
 F 1 "MountingHole" H 20350 8005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 20250 8050 50  0001 C CNN
+F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 20250 8050 50  0001 C CNN
 F 3 "~" H 20250 8050 50  0001 C CNN
 	1    20250 8050
 	1    0    0    -1  
@@ -4826,7 +4826,7 @@ U 1 1 63E6C1F7
 P 20250 8250
 F 0 "H3" H 20350 8296 50  0000 L CNN
 F 1 "MountingHole" H 20350 8205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 20250 8250 50  0001 C CNN
+F 2 "acheron_MountingHoles:halfSideHole" H 20250 8250 50  0001 C CNN
 F 3 "~" H 20250 8250 50  0001 C CNN
 	1    20250 8250
 	1    0    0    -1  
@@ -4837,7 +4837,7 @@ U 1 1 63F0BE48
 P 20250 8450
 F 0 "H4" H 20350 8496 50  0000 L CNN
 F 1 "MountingHole" H 20350 8405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 20250 8450 50  0001 C CNN
+F 2 "acheron_MountingHoles:halfSideHole" H 20250 8450 50  0001 C CNN
 F 3 "~" H 20250 8450 50  0001 C CNN
 	1    20250 8450
 	1    0    0    -1  
@@ -4848,7 +4848,7 @@ U 1 1 63FABAC8
 P 20250 8650
 F 0 "H5" H 20350 8696 50  0000 L CNN
 F 1 "MountingHole" H 20350 8605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 20250 8650 50  0001 C CNN
+F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 20250 8650 50  0001 C CNN
 F 3 "~" H 20250 8650 50  0001 C CNN
 	1    20250 8650
 	1    0    0    -1  
@@ -4859,7 +4859,7 @@ U 1 1 6404B7A4
 P 20250 8850
 F 0 "H6" H 20350 8896 50  0000 L CNN
 F 1 "MountingHole" H 20350 8805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 20250 8850 50  0001 C CNN
+F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 20250 8850 50  0001 C CNN
 F 3 "~" H 20250 8850 50  0001 C CNN
 	1    20250 8850
 	1    0    0    -1  
@@ -4870,7 +4870,7 @@ U 1 1 640EB3BA
 P 20250 9050
 F 0 "H7" H 20350 9096 50  0000 L CNN
 F 1 "MountingHole" H 20350 9005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 20250 9050 50  0001 C CNN
+F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 20250 9050 50  0001 C CNN
 F 3 "~" H 20250 9050 50  0001 C CNN
 	1    20250 9050
 	1    0    0    -1  
@@ -4881,7 +4881,7 @@ U 1 1 6418B100
 P 20250 9250
 F 0 "H8" H 20350 9296 50  0000 L CNN
 F 1 "MountingHole" H 20350 9205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 20250 9250 50  0001 C CNN
+F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 20250 9250 50  0001 C CNN
 F 3 "~" H 20250 9250 50  0001 C CNN
 	1    20250 9250
 	1    0    0    -1  
@@ -4892,7 +4892,7 @@ U 1 1 6422AC47
 P 20250 9450
 F 0 "H9" H 20350 9496 50  0000 L CNN
 F 1 "MountingHole" H 20350 9405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 20250 9450 50  0001 C CNN
+F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 20250 9450 50  0001 C CNN
 F 3 "~" H 20250 9450 50  0001 C CNN
 	1    20250 9450
 	1    0    0    -1  
@@ -4903,7 +4903,7 @@ U 1 1 642CA7E6
 P 20250 9650
 F 0 "H10" H 20350 9696 50  0000 L CNN
 F 1 "MountingHole" H 20350 9605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 20250 9650 50  0001 C CNN
+F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 20250 9650 50  0001 C CNN
 F 3 "~" H 20250 9650 50  0001 C CNN
 	1    20250 9650
 	1    0    0    -1  
@@ -4975,36 +4975,25 @@ F 3 "" H 23450 8250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L more-keeb-parts:EC11E18244A5-Incremental-Rotary-Encoder E1
-U 1 1 65147EF9
-P 17950 7250
-F 0 "E1" H 17900 7650 50  0000 L CNN
-F 1 "EC11E18244A5" H 17700 7550 50  0000 L CNN
-F 2 "" H 17600 7550 50  0001 C CNN
-F 3 "" H 17600 7550 50  0001 C CNN
-	1    17950 7250
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0199
 U 1 1 6529FB78
-P 17600 7450
-F 0 "#PWR0199" H 17600 7200 50  0001 C CNN
-F 1 "GND" V 17605 7322 50  0000 R CNN
-F 2 "" H 17600 7450 50  0001 C CNN
-F 3 "" H 17600 7450 50  0001 C CNN
-	1    17600 7450
-	0    1    1    0   
+P 18050 7300
+F 0 "#PWR0199" H 18050 7050 50  0001 C CNN
+F 1 "GND" V 18055 7172 50  0000 R CNN
+F 2 "" H 18050 7300 50  0001 C CNN
+F 3 "" H 18050 7300 50  0001 C CNN
+	1    18050 7300
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0200
 U 1 1 654C65A9
-P 17600 7150
-F 0 "#PWR0200" H 17600 6900 50  0001 C CNN
-F 1 "GND" V 17605 7022 50  0000 R CNN
-F 2 "" H 17600 7150 50  0001 C CNN
-F 3 "" H 17600 7150 50  0001 C CNN
-	1    17600 7150
+P 17450 7200
+F 0 "#PWR0200" H 17450 6950 50  0001 C CNN
+F 1 "GND" V 17455 7072 50  0000 R CNN
+F 2 "" H 17450 7200 50  0001 C CNN
+F 3 "" H 17450 7200 50  0001 C CNN
+	1    17450 7200
 	0    1    1    0   
 $EndComp
 $Comp
@@ -6496,13 +6485,13 @@ Text GLabel 24100 7450 2    50   Input ~ 0
 SWCLK
 Text GLabel 23500 6850 1    50   Input ~ 0
 Keeb_3.3V
-Text GLabel 17600 7050 0    50   Output ~ 0
+Text GLabel 17450 7300 0    50   Output ~ 0
 E_CW
 Text GLabel 19150 10250 2    50   Input ~ 0
 E_CW
-Text GLabel 17600 7250 0    50   Output ~ 0
+Text GLabel 17450 7100 0    50   Output ~ 0
 E_CCW
-Text GLabel 17600 7350 0    50   BiDi ~ 0
+Text GLabel 18050 7100 2    50   BiDi ~ 0
 E_Button
 Text GLabel 19150 10450 2    50   Input ~ 0
 E_Button
@@ -9608,43 +9597,32 @@ NoConn ~ 4900 5350
 NoConn ~ 4900 5250
 NoConn ~ 4900 2650
 $Comp
-L more-keeb-parts:EC11E18244A5-Incremental-Rotary-Encoder E2
-U 1 1 5EB31AAD
-P 20650 10350
-F 0 "E2" H 20600 10750 50  0000 L CNN
-F 1 "EC11E18244A5" H 20400 10650 50  0000 L CNN
-F 2 "" H 20300 10650 50  0001 C CNN
-F 3 "" H 20300 10650 50  0001 C CNN
-	1    20650 10350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0227
 U 1 1 5EB31AB3
-P 20300 10550
-F 0 "#PWR0227" H 20300 10300 50  0001 C CNN
-F 1 "GND" V 20305 10422 50  0000 R CNN
-F 2 "" H 20300 10550 50  0001 C CNN
-F 3 "" H 20300 10550 50  0001 C CNN
-	1    20300 10550
-	0    1    1    0   
+P 20950 10450
+F 0 "#PWR0227" H 20950 10200 50  0001 C CNN
+F 1 "GND" V 20955 10322 50  0000 R CNN
+F 2 "" H 20950 10450 50  0001 C CNN
+F 3 "" H 20950 10450 50  0001 C CNN
+	1    20950 10450
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0228
 U 1 1 5EB31AB9
-P 20300 10250
-F 0 "#PWR0228" H 20300 10000 50  0001 C CNN
-F 1 "GND" V 20305 10122 50  0000 R CNN
-F 2 "" H 20300 10250 50  0001 C CNN
-F 3 "" H 20300 10250 50  0001 C CNN
-	1    20300 10250
+P 20350 10350
+F 0 "#PWR0228" H 20350 10100 50  0001 C CNN
+F 1 "GND" V 20355 10222 50  0000 R CNN
+F 2 "" H 20350 10350 50  0001 C CNN
+F 3 "" H 20350 10350 50  0001 C CNN
+	1    20350 10350
 	0    1    1    0   
 $EndComp
-Text GLabel 20300 10150 0    50   Output ~ 0
+Text GLabel 20350 10450 0    50   Output ~ 0
 E_CW2
-Text GLabel 20300 10350 0    50   Output ~ 0
+Text GLabel 20350 10250 0    50   Output ~ 0
 E_CCW2
-Text GLabel 20300 10450 0    50   BiDi ~ 0
+Text GLabel 20950 10250 2    50   BiDi ~ 0
 E_Button2
 Text Notes 19900 10000 0    50   ~ 0
 Rotary Encoder
@@ -9958,4 +9936,26 @@ Wire Notes Line
 	23100 10200 21550 10200
 Text Notes 21600 10300 0    50   ~ 0
 Indicator LED
+$Comp
+L acheronSymbols:Rotary_Encoder_Switch_Chassis E1
+U 1 1 5ECC7078
+P 20650 10350
+F 0 "E1" H 20650 10717 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch_Chassis" H 20650 10626 50  0000 C CNN
+F 2 "" H 20500 10510 50  0001 C CNN
+F 3 "~" H 20650 10610 50  0001 C CNN
+	1    20650 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L acheronSymbols:Rotary_Encoder_Switch_Chassis E2
+U 1 1 5F873A39
+P 17750 7200
+F 0 "E2" H 17750 7567 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch_Chassis" H 17750 7476 50  0000 C CNN
+F 2 "" H 17600 7360 50  0001 C CNN
+F 3 "~" H 17750 7460 50  0001 C CNN
+	1    17750 7200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
