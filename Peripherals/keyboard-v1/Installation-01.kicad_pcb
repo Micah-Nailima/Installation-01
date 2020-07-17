@@ -5,7 +5,7 @@
     (drawings 6)
     (tracks 0)
     (zones 0)
-    (modules 386)
+    (modules 385)
     (nets 230)
   )
 
@@ -25,7 +25,7 @@
     (41 Cmts.User user hide)
     (42 Eco1.User user hide)
     (43 Eco2.User user hide)
-    (44 Edge.Cuts user hide)
+    (44 Edge.Cuts user)
     (45 Margin user hide)
     (46 B.CrtYd user hide)
     (47 F.CrtYd user hide)
@@ -560,7 +560,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5EB0B1D5)
-    (at 320.7535 241.681)
+    (at 325.57442 22.48408)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5ECB5335)
@@ -596,7 +596,7 @@
   )
 
   (module LED_SMD:LED_0805_2012Metric (layer F.Cu) (tedit 5B36C52C) (tstamp 5EB0930A)
-    (at 320.675 238.125 180)
+    (at 325.49592 18.92808 180)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags diode)
     (path /5ECB532F)
@@ -634,7 +634,7 @@
   )
 
   (module LED_SMD:LED_0805_2012Metric (layer F.Cu) (tedit 5B36C52C) (tstamp 5EA20A98)
-    (at 311.15 238.125 180)
+    (at 315.97092 18.92808 180)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags diode)
     (path /5EBB66E8)
@@ -672,7 +672,7 @@
   )
 
   (module acheron_Hardware:ALPS_EC11E (layer F.Cu) (tedit 5E59923E) (tstamp 5EB1341C)
-    (at -17.4625 290.4625)
+    (at -12.64158 71.26558)
     (path /5F873A39)
     (fp_text reference E2 (at 0 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -727,7 +727,7 @@
   )
 
   (module acheron_Hardware:ALPS_EC11E (layer F.Cu) (tedit 5E59923E) (tstamp 5EB133F6)
-    (at -17.4625 261.8875)
+    (at -12.64158 42.69058)
     (path /5ECC7078)
     (fp_text reference E1 (at 0 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -782,7 +782,7 @@
   )
 
   (module acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm (layer F.Cu) (tedit 5D40AA66) (tstamp 5EA44664)
-    (at 306.184 129.124)
+    (at 111.6076 158.20136)
     (path /642CA7E6)
     (attr virtual)
     (fp_text reference H10 (at 0.1753 5.7861) (layer F.SilkS) hide
@@ -800,7 +800,7 @@
   )
 
   (module acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm (layer F.Cu) (tedit 5D40AA66) (tstamp 5EA4465C)
-    (at 306.946 123.444)
+    (at 111.6076 150.56104)
     (path /6422AC47)
     (attr virtual)
     (fp_text reference H9 (at 0.1753 5.7861) (layer F.SilkS) hide
@@ -818,7 +818,7 @@
   )
 
   (module acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm (layer F.Cu) (tedit 5D40AA66) (tstamp 5EA44654)
-    (at 299.234 129.124)
+    (at 125.5522 161.1884)
     (path /6418B100)
     (attr virtual)
     (fp_text reference H8 (at 0.1753 5.7861) (layer F.SilkS) hide
@@ -836,7 +836,7 @@
   )
 
   (module acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm (layer F.Cu) (tedit 5D40AA66) (tstamp 5EA4464C)
-    (at 299.996 123.444)
+    (at 138.5062 152.2222)
     (path /640EB3BA)
     (attr virtual)
     (fp_text reference H7 (at 0.1753 5.7861) (layer F.SilkS) hide
@@ -854,7 +854,7 @@
   )
 
   (module acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm (layer F.Cu) (tedit 5D40AA66) (tstamp 5EA44644)
-    (at 292.284 129.124)
+    (at 125.5522 155.87472)
     (path /6404B7A4)
     (attr virtual)
     (fp_text reference H6 (at 0.1753 5.7861) (layer F.SilkS) hide
@@ -872,7 +872,7 @@
   )
 
   (module acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm (layer F.Cu) (tedit 5D40AA66) (tstamp 5EA4463C)
-    (at 293.046 123.444)
+    (at 138.17092 159.52724)
     (path /63FABAC8)
     (attr virtual)
     (fp_text reference H5 (at 0.1753 5.7861) (layer F.SilkS) hide
@@ -890,7 +890,7 @@
   )
 
   (module acheron_MountingHoles:halfSideHole (layer F.Cu) (tedit 5D40A9CE) (tstamp 5EA44634)
-    (at 299.72 145.288)
+    (at 62.79896 173.4566)
     (path /63F0BE48)
     (fp_text reference H4 (at 3 -5) (layer Edge.Cuts) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -904,7 +904,7 @@
   )
 
   (module acheron_MountingHoles:halfSideHole (layer F.Cu) (tedit 5D40A9CE) (tstamp 5EA4462C)
-    (at 270.348 145.796)
+    (at 33.42696 173.9646)
     (path /63E6C1F7)
     (fp_text reference H3 (at 3 -5) (layer Edge.Cuts) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -918,7 +918,7 @@
   )
 
   (module acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm (layer F.Cu) (tedit 5D40AA66) (tstamp 5EA44624)
-    (at 278.384 129.124)
+    (at 38.51148 151.78024)
     (path /63E695B6)
     (attr virtual)
     (fp_text reference H2 (at 0.1753 5.7861) (layer F.SilkS) hide
@@ -936,7 +936,7 @@
   )
 
   (module acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm (layer F.Cu) (tedit 5D40AA66) (tstamp 5EA4461C)
-    (at 279.146 123.444)
+    (at -30.45408 4.00508)
     (path /63E6633A)
     (attr virtual)
     (fp_text reference H1 (at 0.1753 5.7861) (layer F.SilkS) hide
@@ -955,12 +955,12 @@
   )
 
   (module Connector_PinSocket_1.00mm:PinSocket_2x05_P1.00mm_Vertical_SMD (layer F.Cu) (tedit 5A19A430) (tstamp 5EA305A5)
-    (at 267.97 163.83)
+    (at -9.11352 19.1008 180)
     (descr "surface-mounted straight socket strip, 2x05, 1.00mm pitch, double cols (https://gct.co/files/drawings/bc085.pdf), script generated")
     (tags "Surface mounted socket strip SMD 2x05 1.00mm double row")
     (path /64B3560A)
     (attr smd)
-    (fp_text reference J2 (at 0 -4.25) (layer F.SilkS)
+    (fp_text reference J2 (at -3.81508 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_ARM_JTAG_SWD_10 (at 0 4.25) (layer F.Fab)
@@ -1015,25 +1015,25 @@
     (fp_text user %R (at 0 0 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 10 smd rect (at -1.525 2) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 10 smd rect (at -1.525 2 180) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
       (net 204 NRST))
-    (pad 9 smd rect (at 1.525 2) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 9 smd rect (at 1.525 2 180) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (pad 8 smd rect (at -1.525 1) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 8 smd rect (at -1.525 1 180) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
       (net 224 "Net-(J2-Pad8)"))
-    (pad 7 smd rect (at 1.525 1) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 7 smd rect (at 1.525 1 180) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
       (net 225 "Net-(J2-Pad7)"))
-    (pad 6 smd rect (at -1.525 0) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 6 smd rect (at -1.525 0 180) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
       (net 226 "Net-(J2-Pad6)"))
-    (pad 5 smd rect (at 1.525 0) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 5 smd rect (at 1.525 0 180) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (pad 4 smd rect (at -1.525 -1) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 4 smd rect (at -1.525 -1 180) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
       (net 194 SWCLK))
-    (pad 3 smd rect (at 1.525 -1) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 3 smd rect (at 1.525 -1 180) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (pad 2 smd rect (at -1.525 -2) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at -1.525 -2 180) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
       (net 195 SWDIO))
-    (pad 1 smd rect (at 1.525 -2) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at 1.525 -2 180) (size 1.85 0.5) (layers F.Cu F.Paste F.Mask)
       (net 5 Keeb_3.3V))
     (model ${KISYS3DMOD}/Connector_PinSocket_1.00mm.3dshapes/PinSocket_2x05_P1.00mm_Vertical_SMD.wrl
       (at (xyz 0 0 0))
@@ -1043,7 +1043,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5EA206B5)
-    (at 311.15 241.681)
+    (at 315.97092 22.48408)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EBB6EE0)
@@ -1079,7 +1079,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E944F50)
-    (at 246.85625 338.0875)
+    (at 251.67717 118.89058)
     (path /5EB87E7B)
     (attr smd)
     (fp_text reference MX6 (at 0 3.048) (layer B.CrtYd)
@@ -1125,7 +1125,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E9BF9D0)
-    (at 315.9125 280.9375)
+    (at 320.73342 61.74058)
     (path /602A266E)
     (attr smd)
     (fp_text reference MX84 (at 0 3.048) (layer B.CrtYd)
@@ -1171,7 +1171,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E9BF9B3)
-    (at 315.9125 261.8875)
+    (at 320.73342 42.69058)
     (path /600EA2D1)
     (attr smd)
     (fp_text reference MX83 (at 0 3.048) (layer B.CrtYd)
@@ -1217,7 +1217,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94B56C)
-    (at 315.9125 319.0375)
+    (at 320.73342 99.84058)
     (path /5EB907A8)
     (attr smd)
     (fp_text reference MX82 (at 0 3.048) (layer B.CrtYd)
@@ -1263,7 +1263,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94BB09)
-    (at 315.9125 299.9875)
+    (at 320.73342 80.79058)
     (path /5EB9079C)
     (attr smd)
     (fp_text reference MX81 (at 0 3.048) (layer B.CrtYd)
@@ -1309,7 +1309,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E945D4E)
-    (at 282.575 238.125)
+    (at 287.39592 18.92808)
     (path /5F13334A)
     (attr smd)
     (fp_text reference MX78 (at 0 3.048) (layer B.CrtYd)
@@ -1355,7 +1355,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E945D1A)
-    (at 292.1 323.8)
+    (at 296.92092 104.60308)
     (path /5EB87E6F)
     (attr smd)
     (fp_text reference MX77 (at 0 3.048) (layer B.CrtYd)
@@ -1401,7 +1401,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E96B989)
-    (at 254 280.9375)
+    (at 258.82092 61.74058)
     (path /5EB3D86A)
     (attr smd)
     (fp_text reference MX75 (at 0 3.048) (layer B.CrtYd)
@@ -1447,7 +1447,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94BCAA)
-    (at 244.475 261.8875)
+    (at 249.29592 42.69058)
     (path /5EB2A9D3)
     (attr smd)
     (fp_text reference MX74 (at 0 3.048) (layer B.CrtYd)
@@ -1493,7 +1493,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E945C58)
-    (at 263.525 238.125)
+    (at 268.34592 18.92808)
     (path /5EB07693)
     (attr smd)
     (fp_text reference MX73 (at 0 3.048) (layer B.CrtYd)
@@ -1539,7 +1539,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94BD43)
-    (at 311.15 342.85)
+    (at 315.97092 123.65308)
     (path /5EB87EF3)
     (attr smd)
     (fp_text reference MX72 (at 0 3.048) (layer B.CrtYd)
@@ -1585,7 +1585,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E945BCA)
-    (at 239.7125 299.9875)
+    (at 244.53342 80.79058)
     (path /5EB87DC7)
     (attr smd)
     (fp_text reference MX70 (at 0 3.048) (layer B.CrtYd)
@@ -1631,7 +1631,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E96B9DD)
-    (at 234.95 280.9375)
+    (at 239.77092 61.74058)
     (path /5EB3D85E)
     (attr smd)
     (fp_text reference MX69 (at 0 3.048) (layer B.CrtYd)
@@ -1677,7 +1677,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E945B62)
-    (at 225.425 261.8875)
+    (at 230.24592 42.69058)
     (path /5EB2A9C7)
     (attr smd)
     (fp_text reference MX68 (at 0 3.048) (layer B.CrtYd)
@@ -1723,7 +1723,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94BDDC)
-    (at 244.475 238.125)
+    (at 249.29592 18.92808)
     (path /5EB02348)
     (attr smd)
     (fp_text reference MX67 (at 0 3.048) (layer B.CrtYd)
@@ -1769,7 +1769,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E945AFA)
-    (at 292.1 342.85)
+    (at 296.92092 123.65308)
     (path /5EB87EE7)
     (attr smd)
     (fp_text reference MX66 (at 0 3.048) (layer B.CrtYd)
@@ -1815,7 +1815,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E945AC6)
-    (at 230.1875 319.0375)
+    (at 235.00842 99.84058)
     (path /5EB87E57)
     (attr smd)
     (fp_text reference MX65 (at 0 3.048) (layer B.CrtYd)
@@ -1861,7 +1861,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94B6D7)
-    (at 220.6625 299.9875)
+    (at 225.48342 80.79058)
     (path /5EB87DBB)
     (attr smd)
     (fp_text reference MX64 (at 0 3.048) (layer B.CrtYd)
@@ -1907,7 +1907,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E96BA31)
-    (at 215.9 280.9375)
+    (at 220.72092 61.74058)
     (path /5EB3D852)
     (attr smd)
     (fp_text reference MX63 (at 0 3.048) (layer B.CrtYd)
@@ -1953,7 +1953,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94BA70)
-    (at 206.375 261.8875)
+    (at 211.19592 42.69058)
     (path /5EB2A9BB)
     (attr smd)
     (fp_text reference MX62 (at 0 3.048) (layer B.CrtYd)
@@ -1999,7 +1999,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E9459F6)
-    (at 225.425 238.125)
+    (at 230.24592 18.92808)
     (path /5EB0233C)
     (attr smd)
     (fp_text reference MX61 (at 0 3.048) (layer B.CrtYd)
@@ -2045,7 +2045,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E9459C2)
-    (at 273.05 342.85)
+    (at 277.87092 123.65308)
     (path /5EB87EDB)
     (attr smd)
     (fp_text reference MX60 (at 0 3.048) (layer B.CrtYd)
@@ -2091,7 +2091,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94598E)
-    (at 211.1375 319.0375)
+    (at 215.95842 99.84058)
     (path /5EB87E4B)
     (attr smd)
     (fp_text reference MX59 (at 0 3.048) (layer B.CrtYd)
@@ -2137,7 +2137,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94595A)
-    (at 201.6125 299.9875)
+    (at 206.43342 80.79058)
     (path /5EB87DAF)
     (attr smd)
     (fp_text reference MX58 (at 0 3.048) (layer B.CrtYd)
@@ -2183,7 +2183,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E96BA85)
-    (at 196.85 280.9375)
+    (at 201.67092 61.74058)
     (path /5EB3D846)
     (attr smd)
     (fp_text reference MX57 (at 0 3.048) (layer B.CrtYd)
@@ -2229,7 +2229,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E9458F2)
-    (at 187.325 261.8875)
+    (at 192.14592 42.69058)
     (path /5EB2A9AF)
     (attr smd)
     (fp_text reference MX56 (at 0 3.048) (layer B.CrtYd)
@@ -2275,7 +2275,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E9458BE)
-    (at 206.375 238.125)
+    (at 211.19592 18.92808)
     (path /5EB02330)
     (attr smd)
     (fp_text reference MX55 (at 0 3.048) (layer B.CrtYd)
@@ -2321,7 +2321,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E945868)
-    (at 192.0875 319.0375)
+    (at 196.90842 99.84058)
     (path /5EB87E3F)
     (attr smd)
     (fp_text reference MX53 (at 0 3.048) (layer B.CrtYd)
@@ -2367,7 +2367,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94B770)
-    (at 182.5625 299.9875)
+    (at 187.38342 80.79058)
     (path /5EB87DA3)
     (attr smd)
     (fp_text reference MX52 (at 0 3.048) (layer B.CrtYd)
@@ -2413,7 +2413,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E96BAD9)
-    (at 177.8 280.9375)
+    (at 182.62092 61.74058)
     (path /5EB3D83A)
     (attr smd)
     (fp_text reference MX51 (at 0 3.048) (layer B.CrtYd)
@@ -2459,7 +2459,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E9457CC)
-    (at 168.275 261.8875)
+    (at 173.09592 42.69058)
     (path /5EB2A9A3)
     (attr smd)
     (fp_text reference MX50 (at 0 3.048) (layer B.CrtYd)
@@ -2505,7 +2505,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E945798)
-    (at 182.5625 238.125)
+    (at 187.38342 18.92808)
     (path /5EAFB5DB)
     (attr smd)
     (fp_text reference MX49 (at 0 3.048) (layer B.CrtYd)
@@ -2551,7 +2551,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E945764)
-    (at 227.80625 338.0875)
+    (at 232.62717 118.89058)
     (path /5EB87EC3)
     (attr smd)
     (fp_text reference MX48 (at 0 3.048) (layer B.CrtYd)
@@ -2597,7 +2597,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E945730)
-    (at 173.0375 319.0375)
+    (at 177.85842 99.84058)
     (path /5EB87E33)
     (attr smd)
     (fp_text reference MX47 (at 0 3.048) (layer B.CrtYd)
@@ -2643,7 +2643,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E9456FC)
-    (at 163.5125 299.9875)
+    (at 168.33342 80.79058)
     (path /5EB87D97)
     (attr smd)
     (fp_text reference MX46 (at 0 3.048) (layer B.CrtYd)
@@ -2689,7 +2689,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E96B7E5)
-    (at 158.75 280.9375)
+    (at 163.57092 61.74058)
     (path /5EB3D82E)
     (attr smd)
     (fp_text reference MX45 (at 0 3.048) (layer B.CrtYd)
@@ -2735,7 +2735,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E945694)
-    (at 149.225 261.8875)
+    (at 154.04592 42.69058)
     (path /5EB2A997)
     (attr smd)
     (fp_text reference MX44 (at 0 3.048) (layer B.CrtYd)
@@ -2781,7 +2781,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E945660)
-    (at 163.5125 238.125)
+    (at 168.33342 18.92808)
     (path /5EAFB5CF)
     (attr smd)
     (fp_text reference MX43 (at 0 3.048) (layer B.CrtYd)
@@ -2827,7 +2827,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94560A)
-    (at 153.9875 319.0375)
+    (at 158.80842 99.84058)
     (path /5EB87E27)
     (attr smd)
     (fp_text reference MX41 (at 0 3.048) (layer B.CrtYd)
@@ -2873,7 +2873,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94B809)
-    (at 144.4625 299.9875)
+    (at 149.28342 80.79058)
     (path /5EB87D8B)
     (attr smd)
     (fp_text reference MX40 (at 0 3.048) (layer B.CrtYd)
@@ -2919,7 +2919,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E96B839)
-    (at 139.7 280.9375)
+    (at 144.52092 61.74058)
     (path /5EB3D822)
     (attr smd)
     (fp_text reference MX39 (at 0 3.048) (layer B.CrtYd)
@@ -2965,7 +2965,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94556E)
-    (at 130.175 261.8875)
+    (at 134.99592 42.69058)
     (path /5EB2A98B)
     (attr smd)
     (fp_text reference MX38 (at 0 3.048) (layer B.CrtYd)
@@ -3011,7 +3011,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94553A)
-    (at 144.4625 238.125)
+    (at 149.28342 18.92808)
     (path /5EAFB5C3)
     (attr smd)
     (fp_text reference MX37 (at 0 3.048) (layer B.CrtYd)
@@ -3057,7 +3057,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E9454E0)
-    (at 134.9375 319.0375)
+    (at 139.75842 99.84058)
     (path /5EB87E1B)
     (attr smd)
     (fp_text reference MX35 (at 0 3.048) (layer B.CrtYd)
@@ -3103,7 +3103,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E9454AC)
-    (at 125.4125 299.9875)
+    (at 130.23342 80.79058)
     (path /5EB87D7F)
     (attr smd)
     (fp_text reference MX34 (at 0 3.048) (layer B.CrtYd)
@@ -3149,7 +3149,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E96B791)
-    (at 120.65 280.9375)
+    (at 125.47092 61.74058)
     (path /5EB3D816)
     (attr smd)
     (fp_text reference MX33 (at 0 3.048) (layer B.CrtYd)
@@ -3195,7 +3195,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94AD50)
-    (at 111.125 261.8875)
+    (at 115.94592 42.69058)
     (path /5EB2A97F)
     (attr smd)
     (fp_text reference MX32 (at 0 3.048) (layer B.CrtYd)
@@ -3241,7 +3241,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E945410)
-    (at 125.4125 238.125)
+    (at 130.23342 18.92808)
     (path /5EAF5F52)
     (attr smd)
     (fp_text reference MX31 (at 0 3.048) (layer B.CrtYd)
@@ -3287,7 +3287,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94ADE9)
-    (at 115.8875 319.0375)
+    (at 120.70842 99.84058)
     (path /5EB87E0F)
     (attr smd)
     (fp_text reference MX29 (at 0 3.048) (layer B.CrtYd)
@@ -3333,7 +3333,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E9453A8)
-    (at 106.3625 299.9875)
+    (at 111.18342 80.79058)
     (path /5EB87D73)
     (attr smd)
     (fp_text reference MX28 (at 0 3.048) (layer B.CrtYd)
@@ -3379,7 +3379,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E96B73D)
-    (at 101.6 280.9375)
+    (at 106.42092 61.74058)
     (path /5EB3D80A)
     (attr smd)
     (fp_text reference MX27 (at 0 3.048) (layer B.CrtYd)
@@ -3425,7 +3425,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94AE82)
-    (at 92.075 261.8875)
+    (at 96.89592 42.69058)
     (path /5EB2A973)
     (attr smd)
     (fp_text reference MX26 (at 0 3.048) (layer B.CrtYd)
@@ -3471,7 +3471,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94B2C0)
-    (at 101.6 238.125)
+    (at 106.42092 18.92808)
     (path /5EAF5F46)
     (attr smd)
     (fp_text reference MX25 (at 0 3.048) (layer B.CrtYd)
@@ -3517,7 +3517,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E9452B2)
-    (at 96.8375 319.0375)
+    (at 101.65842 99.84058)
     (path /5EB87E03)
     (attr smd)
     (fp_text reference MX23 (at 0 3.048) (layer B.CrtYd)
@@ -3563,7 +3563,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94B359)
-    (at 87.3125 299.9875)
+    (at 92.13342 80.79058)
     (path /5EB87D67)
     (attr smd)
     (fp_text reference MX22 (at 0 3.048) (layer B.CrtYd)
@@ -3609,7 +3609,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E96B88D)
-    (at 82.55 280.9375)
+    (at 87.37092 61.74058)
     (path /5EB3D7FE)
     (attr smd)
     (fp_text reference MX21 (at 0 3.048) (layer B.CrtYd)
@@ -3655,7 +3655,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94AF8A)
-    (at 73.025 261.8875)
+    (at 77.84592 42.69058)
     (path /5EB2A967)
     (attr smd)
     (fp_text reference MX20 (at 0 3.048) (layer B.CrtYd)
@@ -3701,7 +3701,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94B023)
-    (at 82.55 238.125)
+    (at 87.37092 18.92808)
     (path /5EAF5F3A)
     (attr smd)
     (fp_text reference MX19 (at 0 3.048) (layer B.CrtYd)
@@ -3747,7 +3747,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E9451AE)
-    (at 208.75625 338.0875)
+    (at 213.57717 118.89058)
     (path /5EB87E93)
     (attr smd)
     (fp_text reference MX18 (at 0 3.048) (layer B.CrtYd)
@@ -3793,7 +3793,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94B0BC)
-    (at 77.7875 319.0375)
+    (at 82.60842 99.84058)
     (path /5EB87DF7)
     (attr smd)
     (fp_text reference MX17 (at 0 3.048) (layer B.CrtYd)
@@ -3839,7 +3839,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E94B155)
-    (at 68.2625 299.9875)
+    (at 73.08342 80.79058)
     (path /5EB87D5B)
     (attr smd)
     (fp_text reference MX16 (at 0 3.048) (layer B.CrtYd)
@@ -3885,7 +3885,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E96B8E1)
-    (at 63.5 280.9375)
+    (at 68.32092 61.74058)
     (path /5EB3D7F2)
     (attr smd)
     (fp_text reference MX15 (at 0 3.048) (layer B.CrtYd)
@@ -3931,7 +3931,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E9450DE)
-    (at 53.975 261.8875)
+    (at 58.79592 42.69058)
     (path /5EB2A95B)
     (attr smd)
     (fp_text reference MX14 (at 0 3.048) (layer B.CrtYd)
@@ -3977,7 +3977,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E9450AA)
-    (at 63.5 238.125)
+    (at 68.32092 18.92808)
     (path /5EAEE735)
     (attr smd)
     (fp_text reference MX13 (at 0 3.048) (layer B.CrtYd)
@@ -4023,7 +4023,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E945054)
-    (at 58.7375 319.0375)
+    (at 63.55842 99.84058)
     (path /5EB87DEB)
     (attr smd)
     (fp_text reference MX11 (at 0 3.048) (layer B.CrtYd)
@@ -4069,7 +4069,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E945020)
-    (at 49.2125 299.9875)
+    (at 54.03342 80.79058)
     (path /5EB87D4F)
     (attr smd)
     (fp_text reference MX10 (at 0 3.048) (layer B.CrtYd)
@@ -4115,7 +4115,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E96B935)
-    (at 44.45 280.9375)
+    (at 49.27092 61.74058)
     (path /5EB3D7E6)
     (attr smd)
     (fp_text reference MX9 (at 0 3.048) (layer B.CrtYd)
@@ -4161,7 +4161,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E944FB8)
-    (at 34.925 261.8875)
+    (at 39.74592 42.69058)
     (path /5EB2A94F)
     (attr smd)
     (fp_text reference MX8 (at 0 3.048) (layer B.CrtYd)
@@ -4207,7 +4207,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E944F84)
-    (at 44.45 238.125)
+    (at 49.27092 18.92808)
     (path /5EAE8FE6)
     (attr smd)
     (fp_text reference MX7 (at 0 3.048) (layer B.CrtYd)
@@ -4253,7 +4253,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E944EB2)
-    (at 15.875 261.8875)
+    (at 20.69592 42.69058)
     (path /5EB2A943)
     (attr smd)
     (fp_text reference MX2 (at 0 3.048) (layer B.CrtYd)
@@ -4299,7 +4299,7 @@
   )
 
   (module MX_Only:MXOnly-1U-Hotswap (layer F.Cu) (tedit 5BFF7B40) (tstamp 5E944E7E)
-    (at 15.875 238.125)
+    (at 20.69592 18.92808)
     (path /5EAD5A09)
     (attr smd)
     (fp_text reference MX1 (at 0 3.048) (layer B.CrtYd)
@@ -4345,7 +4345,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9D10DF)
-    (at 311.15 348.742 90)
+    (at 315.97092 129.54508 90)
     (path /61A92B04)
     (fp_text reference LED86 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4417,7 +4417,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9D55C1)
-    (at 316.23 267.716 90)
+    (at 321.05092 48.51908 90)
     (path /61218FBA)
     (fp_text reference LED85 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4489,7 +4489,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9D44A5)
-    (at 282.702 244.094 90)
+    (at 287.52292 24.89708 90)
     (path /60EAB397)
     (fp_text reference LED84 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4561,7 +4561,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9BE6AE)
-    (at 292.1 348.742 90)
+    (at 296.92092 129.54508 90)
     (path /5F6B3765)
     (fp_text reference LED83 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -4633,7 +4633,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9BBF87)
-    (at 323.596 280.924 90)
+    (at 328.41692 61.72708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /602A2674)
@@ -4677,7 +4677,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E982B25)
-    (at 323.596 261.874 90)
+    (at 328.41692 42.67708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /600EA2D7)
@@ -4721,7 +4721,7 @@
   )
 
   (module MX_Only:MXOnly-6.25U-Hotswap (layer F.Cu) (tedit 5C4554B2) (tstamp 5E997FF8)
-    (at 138.509375 338.0875)
+    (at 143.330295 118.89058)
     (path /5F28839C)
     (attr smd)
     (fp_text reference MX30 (at 0 3.048) (layer B.CrtYd)
@@ -4771,7 +4771,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E99488C)
-    (at 146.05 338.074 90)
+    (at 150.87092 118.87708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F2883A2)
@@ -4814,8 +4814,8 @@
     )
   )
 
-  (module Package_TO_SOT_SMD:SOT-23-6 (layer B.Cu) (tedit 5A02FF57) (tstamp 5EB0BF98)
-    (at -36.068 230.378 90)
+  (module Package_TO_SOT_SMD:SOT-23-6 (layer B.Cu) (tedit 5A02FF57) (tstamp 5F15EFAD)
+    (at -2.96164 11.57732 90)
     (descr "6-pin SOT-23 package")
     (tags SOT-23-6)
     (path /638A9965)
@@ -4860,12 +4860,12 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 5E94B499)
-    (at 105.215 188.31)
+    (at -17.28216 9.5504)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5EAA32B4)
     (attr smd)
-    (fp_text reference U5 (at 0 -2.5) (layer F.SilkS)
+    (fp_text reference U5 (at -2.54 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MCP1700-3302E_SOT23 (at 0 2.5) (layer F.Fab)
@@ -4901,7 +4901,7 @@
   )
 
   (module Package_QFP:LQFP-48_7x7mm_P0.5mm (layer F.Cu) (tedit 5D9F72AF) (tstamp 5E9460BC)
-    (at -8.636 244.856)
+    (at -23.58136 23.75408)
     (descr "LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "LQFP QFP")
     (path /5EA1D253)
@@ -5057,15 +5057,15 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5E94601D)
-    (at 256.54 125.73)
+    (at -31.50108 9.66216 270)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /645602CD)
     (attr smd)
-    (fp_text reference R18 (at 0 -1.65) (layer F.SilkS)
+    (fp_text reference R18 (at 3.19024 -0.0254 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1M (at 0 1.65) (layer F.Fab)
+    (fp_text value 1M (at 0 1.65 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.68 0.95) (end -1.68 0.95) (layer F.CrtYd) (width 0.05))
@@ -5078,12 +5078,12 @@
     (fp_line (start 1 -0.6) (end 1 0.6) (layer F.Fab) (width 0.1))
     (fp_line (start -1 -0.6) (end 1 -0.6) (layer F.Fab) (width 0.1))
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (pad 2 smd roundrect (at 0.9375 0) (size 0.975 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 2 smd roundrect (at 0.9375 0 270) (size 0.975 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 GND))
-    (pad 1 smd roundrect (at -0.9375 0) (size 0.975 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+    (pad 1 smd roundrect (at -0.9375 0 270) (size 0.975 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 3 "Net-(C20-Pad1)"))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
@@ -5093,7 +5093,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer B.Cu) (tedit 5B36C52B) (tstamp 5E945F2F)
-    (at 288.036 242.57 180)
+    (at 292.85692 23.37308 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /60CE6EE6)
@@ -5128,8 +5128,8 @@
     )
   )
 
-  (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5E945F1E)
-    (at -25.4 230.378 270)
+  (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5F15EFE7)
+    (at 7.70636 11.57732 270)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EA6C14C)
@@ -5164,8 +5164,8 @@
     )
   )
 
-  (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5E945F0D)
-    (at -29.464 230.378 90)
+  (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5F15F017)
+    (at 3.64236 11.57732 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EA5BF29)
@@ -5200,8 +5200,8 @@
     )
   )
 
-  (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5E945EFC)
-    (at -31.75 230.378 90)
+  (module Resistor_SMD:R_0805_2012Metric (layer F.Cu) (tedit 5B36C52B) (tstamp 5F15EF78)
+    (at 1.35636 11.57732 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EA5AF60)
@@ -5237,7 +5237,7 @@
   )
 
   (module MX_Only:MXOnly-1.5U-Hotswap (layer F.Cu) (tedit 5BFF7B6F) (tstamp 5E96B2AC)
-    (at 277.8125 280.9375)
+    (at 282.63342 61.74058)
     (path /5EB90790)
     (attr smd)
     (fp_text reference MX80 (at 0 3.048) (layer B.CrtYd)
@@ -5283,7 +5283,7 @@
   )
 
   (module MX_Only:MXOnly-2U-Hotswap (layer F.Cu) (tedit 5C4553DE) (tstamp 5E94B9F3)
-    (at 273.05 261.8875)
+    (at 277.87092 42.69058)
     (path /5EB90784)
     (attr smd)
     (fp_text reference MX79 (at 0 3.048) (layer B.CrtYd)
@@ -5333,7 +5333,7 @@
   )
 
   (module MX_Only:MXOnly-2.25U-Hotswap (layer F.Cu) (tedit 5C455417) (tstamp 5E94BC2D)
-    (at 270.66875 299.9875)
+    (at 275.48967 80.79058)
     (path /5EB87DD3)
     (attr smd)
     (fp_text reference MX76 (at 0 3.048) (layer B.CrtYd)
@@ -5383,7 +5383,7 @@
   )
 
   (module MX_Only:MXOnly-2.25U-Hotswap (layer F.Cu) (tedit 5C455417) (tstamp 5E94B65A)
-    (at 27.78125 319.0375)
+    (at 32.60217 99.84058)
     (path /5EB87E63)
     (attr smd)
     (fp_text reference MX71 (at 0 3.048) (layer B.CrtYd)
@@ -5433,7 +5433,7 @@
   )
 
   (module MX_Only:MXOnly-1.25U-Hotswap (layer F.Cu) (tedit 5BFF7B58) (tstamp 5E94B8F3)
-    (at 18.25625 338.0875)
+    (at 23.07717 118.89058)
     (path /5EB87ECF)
     (attr smd)
     (fp_text reference MX54 (at 0 3.048) (layer B.CrtYd)
@@ -5479,7 +5479,7 @@
   )
 
   (module MX_Only:MXOnly-1.25U-Hotswap (layer F.Cu) (tedit 5BFF7B58) (tstamp 5E984061)
-    (at 65.88125 338.0875)
+    (at 70.70217 118.89058)
     (path /5EB87EB7)
     (attr smd)
     (fp_text reference MX42 (at 0 3.048) (layer B.CrtYd)
@@ -5525,7 +5525,7 @@
   )
 
   (module MX_Only:MXOnly-2.75U-Hotswap (layer F.Cu) (tedit 5C455440) (tstamp 5E94AC3A)
-    (at 103.98125 338.0875)
+    (at 108.80217 118.89058)
     (path /5EB87EAB)
     (attr smd)
     (fp_text reference MX36 (at 0 3.048) (layer B.CrtYd)
@@ -5575,7 +5575,7 @@
   )
 
   (module MX_Only:MXOnly-2.75U-Hotswap (layer F.Cu) (tedit 5C455440) (tstamp 5E94AF0D)
-    (at 173.0375 338.0875)
+    (at 177.85842 118.89058)
     (path /5EB87E9F)
     (attr smd)
     (fp_text reference MX24 (at 0 3.048) (layer B.CrtYd)
@@ -5625,7 +5625,7 @@
   )
 
   (module MX_Only:MXOnly-1.25U-Hotswap (layer F.Cu) (tedit 5BFF7B58) (tstamp 5E94D34C)
-    (at 42.06875 338.0875)
+    (at 46.88967 118.89058)
     (path /5EB87E87)
     (attr smd)
     (fp_text reference MX12 (at 0 3.048) (layer B.CrtYd)
@@ -5671,7 +5671,7 @@
   )
 
   (module MX_Only:MXOnly-2U-Hotswap (layer F.Cu) (tedit 5C4553DE) (tstamp 5E94B1E0)
-    (at 258.7025 319.0375)
+    (at 263.52342 99.84058)
     (path /5EB87DDF)
     (attr smd)
     (fp_text reference MX5 (at 0 3.048) (layer B.CrtYd)
@@ -5721,7 +5721,7 @@
   )
 
   (module MX_Only:MXOnly-1.75U-Hotswap (layer F.Cu) (tedit 5BFF7B85) (tstamp 5E94B24B)
-    (at 23.01875 299.9875)
+    (at 27.83967 80.79058)
     (path /5EB87D43)
     (attr smd)
     (fp_text reference MX4 (at 0 3.048) (layer B.CrtYd)
@@ -5767,7 +5767,7 @@
   )
 
   (module MX_Only:MXOnly-1.5U-Hotswap (layer F.Cu) (tedit 5BFF7B6F) (tstamp 5E96B249)
-    (at 20.6375 280.9375)
+    (at 25.45842 61.74058)
     (path /5EB3D7DA)
     (attr smd)
     (fp_text reference MX3 (at 0 3.048) (layer B.CrtYd)
@@ -5813,7 +5813,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944E4A)
-    (at 315.976 286.766 90)
+    (at 320.79692 67.56908 90)
     (path /61312F77)
     (fp_text reference LED82 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5885,7 +5885,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944E0F)
-    (at 315.976 324.866 90)
+    (at 320.79692 105.66908 90)
     (path /60563521)
     (fp_text reference LED81 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5957,7 +5957,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944DD4)
-    (at 315.976 305.816 90)
+    (at 320.79692 86.61908 90)
     (path /60563510)
     (fp_text reference LED80 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6029,7 +6029,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944D99)
-    (at 277.876 287.02 90)
+    (at 282.69692 67.82308 90)
     (path /605634FF)
     (fp_text reference LED79 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6101,7 +6101,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944D5E)
-    (at 273.05 267.97 90)
+    (at 277.87092 48.77308 90)
     (path /605634EE)
     (fp_text reference LED78 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6173,7 +6173,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944D23)
-    (at 292.1 329.692 90)
+    (at 296.92092 110.49508 90)
     (path /604F73F1)
     (fp_text reference LED77 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6245,7 +6245,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944CE8)
-    (at 270.764 305.816 90)
+    (at 275.58492 86.61908 90)
     (path /6047FAAC)
     (fp_text reference LED76 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6317,7 +6317,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944CAD)
-    (at 254 286.766 90)
+    (at 258.82092 67.56908 90)
     (path /6039FC79)
     (fp_text reference LED75 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6389,7 +6389,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944C72)
-    (at 244.602 267.716 90)
+    (at 249.42292 48.51908 90)
     (path /60347608)
     (fp_text reference LED74 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6461,7 +6461,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9D4AC3)
-    (at 263.652 244.094 90)
+    (at 268.47292 24.89708 90)
     (path /602DF168)
     (fp_text reference LED73 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6533,7 +6533,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944BFC)
-    (at 273.05 348.742 90)
+    (at 277.87092 129.54508 90)
     (path /6075C280)
     (fp_text reference LED72 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6605,7 +6605,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944BC1)
-    (at 258.826 324.866 90)
+    (at 263.64692 105.66908 90)
     (path /604F73D7)
     (fp_text reference LED71 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6677,7 +6677,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944B86)
-    (at 239.776 305.816 90)
+    (at 244.59692 86.61908 90)
     (path /6047FA92)
     (fp_text reference LED70 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6749,7 +6749,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944B4B)
-    (at 234.95 286.766 90)
+    (at 239.77092 67.56908 90)
     (path /6039FC5F)
     (fp_text reference LED69 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6821,7 +6821,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944B10)
-    (at 225.552 267.716 90)
+    (at 230.37292 48.51908 90)
     (path /603475EE)
     (fp_text reference LED68 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6893,7 +6893,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9D4A15)
-    (at 244.348 244.094 90)
+    (at 249.16892 24.89708 90)
     (path /601D609D)
     (fp_text reference LED67 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -6965,7 +6965,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E983861)
-    (at 246.888 343.916 90)
+    (at 251.70892 124.71908 90)
     (path /60665D5F)
     (fp_text reference LED66 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7037,7 +7037,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944A5F)
-    (at 230.124 324.866 90)
+    (at 234.94492 105.66908 90)
     (path /604F73D1)
     (fp_text reference LED65 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7109,7 +7109,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944A24)
-    (at 220.726 305.816 90)
+    (at 225.54692 86.61908 90)
     (path /6047FA8C)
     (fp_text reference LED64 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7181,7 +7181,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9449E9)
-    (at 215.9 286.766 90)
+    (at 220.72092 67.56908 90)
     (path /6039FC59)
     (fp_text reference LED63 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7253,7 +7253,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9449AE)
-    (at 206.502 267.716 90)
+    (at 211.32292 48.51908 90)
     (path /603475E8)
     (fp_text reference LED62 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7325,7 +7325,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9D4967)
-    (at 225.298 244.094 90)
+    (at 230.11892 24.89708 90)
     (path /601D6097)
     (fp_text reference LED61 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7397,7 +7397,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944938)
-    (at 227.838 343.916 90)
+    (at 232.65892 124.71908 90)
     (path /60665D45)
     (fp_text reference LED60 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7469,7 +7469,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9448FD)
-    (at 211.074 324.866 90)
+    (at 215.89492 105.66908 90)
     (path /604F73B7)
     (fp_text reference LED59 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7541,7 +7541,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9448C2)
-    (at 201.676 306.07 90)
+    (at 206.49692 86.87308 90)
     (path /6047FA72)
     (fp_text reference LED58 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7613,7 +7613,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944887)
-    (at 196.85 286.766 90)
+    (at 201.67092 67.56908 90)
     (path /6039FC3F)
     (fp_text reference LED57 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7685,7 +7685,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E94484C)
-    (at 187.452 267.716 90)
+    (at 192.27292 48.51908 90)
     (path /603475CE)
     (fp_text reference LED56 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7757,7 +7757,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9D4553)
-    (at 206.248 244.094 90)
+    (at 211.06892 24.89708 90)
     (path /601D607D)
     (fp_text reference LED55 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7829,7 +7829,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9447D6)
-    (at 209.042 343.916 90)
+    (at 213.86292 124.71908 90)
     (path /60665D3F)
     (fp_text reference LED54 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7901,7 +7901,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E94479B)
-    (at 192.024 324.866 90)
+    (at 196.84492 105.66908 90)
     (path /604F73B1)
     (fp_text reference LED53 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -7973,7 +7973,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944760)
-    (at 182.626 306.07 90)
+    (at 187.44692 86.87308 90)
     (path /6047FA6C)
     (fp_text reference LED52 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8045,7 +8045,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944725)
-    (at 177.8 286.766 90)
+    (at 182.62092 67.56908 90)
     (path /6039FC39)
     (fp_text reference LED51 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8117,7 +8117,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9446EA)
-    (at 168.402 267.716 90)
+    (at 173.22292 48.51908 90)
     (path /603475C8)
     (fp_text reference LED50 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8189,7 +8189,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9D480B)
-    (at 182.626 244.094 90)
+    (at 187.44692 24.89708 90)
     (path /601D6077)
     (fp_text reference LED49 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8261,7 +8261,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944674)
-    (at 190.5 338.074 90)
+    (at 195.32092 118.87708 90)
     (path /60665D25)
     (fp_text reference LED48 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8333,7 +8333,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944639)
-    (at 172.974 324.866 90)
+    (at 177.79492 105.66908 90)
     (path /604F7397)
     (fp_text reference LED47 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8405,7 +8405,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9445FE)
-    (at 163.576 305.816 90)
+    (at 168.39692 86.61908 90)
     (path /6047FA52)
     (fp_text reference LED46 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8477,7 +8477,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9445C3)
-    (at 158.75 286.766 90)
+    (at 163.57092 67.56908 90)
     (path /6039FC1F)
     (fp_text reference LED45 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8549,7 +8549,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944588)
-    (at 149.352 267.716 90)
+    (at 154.17292 48.51908 90)
     (path /603475AE)
     (fp_text reference LED44 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8621,7 +8621,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9D4601)
-    (at 163.576 244.094 90)
+    (at 168.39692 24.89708 90)
     (path /6019463D)
     (fp_text reference LED43 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8693,7 +8693,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944512)
-    (at 155.448 338.074 90)
+    (at 160.26892 118.87708 90)
     (path /60665D1F)
     (fp_text reference LED42 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8765,7 +8765,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9444D7)
-    (at 153.924 324.866 90)
+    (at 158.74492 105.66908 90)
     (path /604F7391)
     (fp_text reference LED41 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8837,7 +8837,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E94449C)
-    (at 144.526 305.816 90)
+    (at 149.34692 86.61908 90)
     (path /6047FA4C)
     (fp_text reference LED40 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8909,7 +8909,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944461)
-    (at 139.7 286.766 90)
+    (at 144.52092 67.56908 90)
     (path /6039FC19)
     (fp_text reference LED39 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -8981,7 +8981,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944426)
-    (at 130.302 267.716 90)
+    (at 135.12292 48.51908 90)
     (path /603475A8)
     (fp_text reference LED38 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9053,7 +9053,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9D475D)
-    (at 144.526 244.094 90)
+    (at 149.34692 24.89708 90)
     (path /60194637)
     (fp_text reference LED37 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9125,7 +9125,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9443B0)
-    (at 138.684 343.662 90)
+    (at 143.50492 124.46508 90)
     (path /60665D05)
     (fp_text reference LED36 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9197,7 +9197,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944375)
-    (at 134.874 324.866 90)
+    (at 139.69492 105.66908 90)
     (path /604F7377)
     (fp_text reference LED35 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9269,7 +9269,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E94433A)
-    (at 125.476 305.816 90)
+    (at 130.29692 86.61908 90)
     (path /6047FA32)
     (fp_text reference LED34 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9341,7 +9341,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9442FF)
-    (at 120.65 286.766 90)
+    (at 125.47092 67.56908 90)
     (path /6039FBFF)
     (fp_text reference LED33 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9413,7 +9413,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9442C4)
-    (at 111.252 267.716 90)
+    (at 116.07292 48.51908 90)
     (path /6034758E)
     (fp_text reference LED32 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9485,7 +9485,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9D48B9)
-    (at 125.476 244.094 90)
+    (at 130.29692 24.89708 90)
     (path /6019461D)
     (fp_text reference LED31 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9557,7 +9557,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E94424E)
-    (at 121.412 338.074 90)
+    (at 126.23292 118.87708 90)
     (path /60665CFF)
     (fp_text reference LED30 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9629,7 +9629,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944213)
-    (at 115.824 324.866 90)
+    (at 120.64492 105.66908 90)
     (path /604F7371)
     (fp_text reference LED29 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9701,7 +9701,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9441D8)
-    (at 106.426 305.816 90)
+    (at 111.24692 86.61908 90)
     (path /6047FA2C)
     (fp_text reference LED28 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9773,7 +9773,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E94419D)
-    (at 101.6 286.766 90)
+    (at 106.42092 67.56908 90)
     (path /6039FBF9)
     (fp_text reference LED27 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9845,7 +9845,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944162)
-    (at 92.202 267.716 90)
+    (at 97.02292 48.51908 90)
     (path /60347588)
     (fp_text reference LED26 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9917,7 +9917,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9D46AF)
-    (at 101.6 244.094 90)
+    (at 106.42092 24.89708 90)
     (path /60194617)
     (fp_text reference LED25 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -9989,7 +9989,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9440EC)
-    (at 87.376 338.074 90)
+    (at 92.19692 118.87708 90)
     (path /60665CE5)
     (fp_text reference LED24 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10061,7 +10061,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9440B1)
-    (at 96.774 324.866 90)
+    (at 101.59492 105.66908 90)
     (path /604F7357)
     (fp_text reference LED23 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10133,7 +10133,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944076)
-    (at 87.376 305.816 90)
+    (at 92.19692 86.61908 90)
     (path /6047FA12)
     (fp_text reference LED22 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10205,7 +10205,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E94403B)
-    (at 82.55 287.02 90)
+    (at 87.37092 67.82308 90)
     (path /6039FBDF)
     (fp_text reference LED21 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10277,7 +10277,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E944000)
-    (at 73.152 267.716 90)
+    (at 77.97292 48.51908 90)
     (path /6034756E)
     (fp_text reference LED20 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10349,7 +10349,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9D4B71)
-    (at 82.55 244.094 90)
+    (at 87.37092 24.89708 90)
     (path /60116F34)
     (fp_text reference LED19 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10421,7 +10421,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9841CF)
-    (at 65.786 343.916 90)
+    (at 70.60692 124.71908 90)
     (path /60665CDF)
     (fp_text reference LED18 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10493,7 +10493,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E94C4A1)
-    (at 77.724 325.12 90)
+    (at 82.54492 105.92308 90)
     (path /604F7351)
     (fp_text reference LED17 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10565,7 +10565,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E943F14)
-    (at 68.326 305.816 90)
+    (at 73.14692 86.61908 90)
     (path /6047FA0C)
     (fp_text reference LED16 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10637,7 +10637,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E943ED9)
-    (at 63.5 286.766 90)
+    (at 68.32092 67.56908 90)
     (path /6039FBD9)
     (fp_text reference LED15 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10709,7 +10709,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E943E9E)
-    (at 54.102 267.97 90)
+    (at 58.92292 48.77308 90)
     (path /60347568)
     (fp_text reference LED14 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10781,7 +10781,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9D4CCD)
-    (at 63.754 244.094 90)
+    (at 68.57492 24.89708 90)
     (path /60116F2E)
     (fp_text reference LED13 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10853,7 +10853,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E943E28)
-    (at 41.91 343.916 90)
+    (at 46.73092 124.71908 90)
     (path /60665CC5)
     (fp_text reference LED12 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10925,7 +10925,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E943DED)
-    (at 58.674 324.866 90)
+    (at 63.49492 105.66908 90)
     (path /604F7337)
     (fp_text reference LED11 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -10997,7 +10997,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E943DB2)
-    (at 49.276 305.816 90)
+    (at 54.09692 86.61908 90)
     (path /6047F9F2)
     (fp_text reference LED10 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11069,7 +11069,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E943D77)
-    (at 44.45 286.766 90)
+    (at 49.27092 67.56908 90)
     (path /6039FBBF)
     (fp_text reference LED9 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11141,7 +11141,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E943D3C)
-    (at 35.052 267.716 90)
+    (at 39.87292 48.51908 90)
     (path /6034754E)
     (fp_text reference LED8 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11213,7 +11213,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E9D4C1F)
-    (at 44.45 244.094 90)
+    (at 49.27092 24.89708 90)
     (path /5FF556EA)
     (fp_text reference LED7 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11285,7 +11285,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E984649)
-    (at 18.288 343.916 90)
+    (at 23.10892 124.71908 90)
     (path /60665CBF)
     (fp_text reference LED6 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11357,7 +11357,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E943C8B)
-    (at 27.686 324.866 90)
+    (at 32.50692 105.66908 90)
     (path /604F7331)
     (fp_text reference LED5 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11429,7 +11429,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E943C50)
-    (at 23.114 305.816 90)
+    (at 27.93492 86.61908 90)
     (path /6047F9EC)
     (fp_text reference LED4 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11501,7 +11501,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E943C15)
-    (at 20.574 286.766 90)
+    (at 25.39492 67.56908 90)
     (path /6039FBB9)
     (fp_text reference LED3 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11573,7 +11573,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E943BDA)
-    (at 16.002 267.716 90)
+    (at 20.82292 48.51908 90)
     (path /60347548)
     (fp_text reference LED2 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11645,7 +11645,7 @@
   )
 
   (module WS2812B:WS2812B (layer F.Cu) (tedit 5BFF8641) (tstamp 5E943B9F)
-    (at 16.002 244.094 90)
+    (at 20.82292 24.89708 90)
     (path /5FF5278C)
     (fp_text reference LED1 (at 0 -4.572 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11717,7 +11717,7 @@
   )
 
   (module Type-C:USB_C_GCT_USB4085 (layer F.Cu) (tedit 5C944084) (tstamp 5E9E8FCE)
-    (at -32.258 219.202 180)
+    (at 0 0 180)
     (path /5EA1B998)
     (fp_text reference JIN1 (at 0 1.85) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -11774,12 +11774,12 @@
   )
 
   (module Fuse:Fuse_1206_3216Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 5E943A9D)
-    (at 279.825 35.98)
+    (at -12.20216 9.5504)
     (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EAA32C5)
     (attr smd)
-    (fp_text reference F2 (at 0 -1.82) (layer F.SilkS)
+    (fp_text reference F2 (at 0 2.54) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Polyfuse_Small (at 0 1.82) (layer F.Fab)
@@ -11810,7 +11810,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943A7B)
-    (at 323.596 319.024 90)
+    (at 328.41692 99.82708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB907AE)
@@ -11854,7 +11854,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943A62)
-    (at 323.596 299.974 90)
+    (at 328.41692 80.77708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB907A2)
@@ -11898,7 +11898,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943A49)
-    (at 285.496 280.924 90)
+    (at 290.31692 61.72708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB90796)
@@ -11942,7 +11942,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943A30)
-    (at 280.67 261.874 90)
+    (at 285.49092 42.67708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB9078A)
@@ -11986,7 +11986,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943A17)
-    (at 290.322 238.252 90)
+    (at 295.14292 19.05508 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5F133350)
@@ -12030,7 +12030,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9439FE)
-    (at 299.72 323.85 90)
+    (at 304.54092 104.65308 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87E75)
@@ -12074,7 +12074,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9439E5)
-    (at 278.384 299.974 90)
+    (at 283.20492 80.77708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87DD9)
@@ -12118,7 +12118,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9439CC)
-    (at 261.62 280.924 90)
+    (at 266.44092 61.72708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB3D870)
@@ -12162,7 +12162,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9439B3)
-    (at 252.222 261.874 90)
+    (at 257.04292 42.67708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB2A9D9)
@@ -12206,7 +12206,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E94399A)
-    (at 271.272 238.252 90)
+    (at 276.09292 19.05508 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB07699)
@@ -12250,7 +12250,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943981)
-    (at 318.77 342.9 90)
+    (at 323.59092 123.70308 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87EF9)
@@ -12294,7 +12294,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9BF1CB)
-    (at 35.306 319.024 90)
+    (at 40.12692 99.82708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87E69)
@@ -12338,7 +12338,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E94394F)
-    (at 247.396 299.974 90)
+    (at 252.21692 80.77708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87DCD)
@@ -12382,7 +12382,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943936)
-    (at 242.57 280.924 90)
+    (at 247.39092 61.72708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB3D864)
@@ -12426,7 +12426,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E94391D)
-    (at 233.172 261.874 90)
+    (at 237.99292 42.67708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB2A9CD)
@@ -12470,7 +12470,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943904)
-    (at 252.222 238.252 90)
+    (at 257.04292 19.05508 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB0234E)
@@ -12514,7 +12514,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9438EB)
-    (at 299.72 342.9 90)
+    (at 304.54092 123.70308 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87EED)
@@ -12558,7 +12558,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9438D2)
-    (at 237.744 319.024 90)
+    (at 242.56492 99.82708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87E5D)
@@ -12602,7 +12602,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9438B9)
-    (at 228.346 299.974 90)
+    (at 233.16692 80.77708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87DC1)
@@ -12646,7 +12646,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9438A0)
-    (at 223.52 280.924 90)
+    (at 228.34092 61.72708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB3D858)
@@ -12690,7 +12690,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943887)
-    (at 214.122 261.874 90)
+    (at 218.94292 42.67708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB2A9C1)
@@ -12734,7 +12734,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E94386E)
-    (at 233.172 238.252 90)
+    (at 237.99292 19.05508 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB02342)
@@ -12778,7 +12778,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943855)
-    (at 280.67 342.9 90)
+    (at 285.49092 123.70308 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87EE1)
@@ -12822,7 +12822,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E94383C)
-    (at 218.694 319.024 90)
+    (at 223.51492 99.82708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87E51)
@@ -12866,7 +12866,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943823)
-    (at 209.296 299.974 90)
+    (at 214.11692 80.77708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87DB5)
@@ -12910,7 +12910,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E94380A)
-    (at 204.47 280.924 90)
+    (at 209.29092 61.72708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB3D84C)
@@ -12954,7 +12954,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9437F1)
-    (at 195.072 261.874 90)
+    (at 199.89292 42.67708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB2A9B5)
@@ -12998,7 +12998,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9437D8)
-    (at 214.122 238.252 90)
+    (at 218.94292 19.05508 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB02336)
@@ -13042,7 +13042,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9437BF)
-    (at 25.908 338.074 90)
+    (at 30.72892 118.87708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87ED5)
@@ -13086,7 +13086,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9437A6)
-    (at 199.644 319.024 90)
+    (at 204.46492 99.82708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87E45)
@@ -13130,7 +13130,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E94378D)
-    (at 190.246 299.974 90)
+    (at 195.06692 80.77708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87DA9)
@@ -13174,7 +13174,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943774)
-    (at 185.42 280.924 90)
+    (at 190.24092 61.72708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB3D840)
@@ -13218,7 +13218,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E94375B)
-    (at 176.022 261.874 90)
+    (at 180.84292 42.67708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB2A9A9)
@@ -13262,7 +13262,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943742)
-    (at 190.246 238.252 90)
+    (at 195.06692 19.05508 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EAFB5E1)
@@ -13306,7 +13306,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9E19D9)
-    (at 235.458 338.074 90)
+    (at 240.27892 118.87708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87EC9)
@@ -13350,7 +13350,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943710)
-    (at 180.594 319.024 90)
+    (at 185.41492 99.82708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87E39)
@@ -13394,7 +13394,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9436F7)
-    (at 171.196 299.974 90)
+    (at 176.01692 80.77708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87D9D)
@@ -13438,7 +13438,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9436DE)
-    (at 166.37 280.924 90)
+    (at 171.19092 61.72708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB3D834)
@@ -13482,7 +13482,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9436C5)
-    (at 156.972 261.874 90)
+    (at 161.79292 42.67708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB2A99D)
@@ -13526,7 +13526,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9436AC)
-    (at 171.196 238.252 90)
+    (at 176.01692 19.05508 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EAFB5D5)
@@ -13570,7 +13570,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E94AA6B)
-    (at 73.406 338.074 90)
+    (at 78.22692 118.87708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87EBD)
@@ -13614,7 +13614,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E94367A)
-    (at 161.544 319.024 90)
+    (at 166.36492 99.82708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87E2D)
@@ -13658,7 +13658,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943661)
-    (at 152.146 299.974 90)
+    (at 156.96692 80.77708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87D91)
@@ -13702,7 +13702,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943648)
-    (at 147.32 280.924 90)
+    (at 152.14092 61.72708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB3D828)
@@ -13746,7 +13746,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E94362F)
-    (at 137.922 261.874 90)
+    (at 142.74292 42.67708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB2A991)
@@ -13790,7 +13790,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943616)
-    (at 152.146 238.252 90)
+    (at 156.96692 19.05508 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EAFB5C9)
@@ -13834,7 +13834,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9435FD)
-    (at 111.506 338.074 90)
+    (at 116.32692 118.87708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87EB1)
@@ -13878,7 +13878,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9435E4)
-    (at 142.494 319.024 90)
+    (at 147.31492 99.82708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87E21)
@@ -13922,7 +13922,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9435CB)
-    (at 133.096 299.974 90)
+    (at 137.91692 80.77708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87D85)
@@ -13966,7 +13966,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9435B2)
-    (at 128.27 280.924 90)
+    (at 133.09092 61.72708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB3D81C)
@@ -14010,7 +14010,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943599)
-    (at 118.872 261.874 90)
+    (at 123.69292 42.67708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB2A985)
@@ -14054,7 +14054,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943580)
-    (at 133.096 238.252 90)
+    (at 137.91692 19.05508 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EAF5F58)
@@ -14098,7 +14098,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943567)
-    (at 123.444 319.024 90)
+    (at 128.26492 99.82708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87E15)
@@ -14142,7 +14142,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E94354E)
-    (at 114.046 299.974 90)
+    (at 118.86692 80.77708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87D79)
@@ -14186,7 +14186,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943535)
-    (at 109.22 280.924 90)
+    (at 114.04092 61.72708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB3D810)
@@ -14230,7 +14230,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E94351C)
-    (at 99.822 261.874 90)
+    (at 104.64292 42.67708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB2A979)
@@ -14274,7 +14274,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943503)
-    (at 109.474 238.252 90)
+    (at 114.29492 19.05508 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EAF5F4C)
@@ -14318,7 +14318,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9434EA)
-    (at 180.594 338.074 90)
+    (at 185.41492 118.87708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87EA5)
@@ -14362,7 +14362,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9434D1)
-    (at 104.394 319.024 90)
+    (at 109.21492 99.82708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87E09)
@@ -14406,7 +14406,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9434B8)
-    (at 94.996 299.974 90)
+    (at 99.81692 80.77708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87D6D)
@@ -14450,7 +14450,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E94349F)
-    (at 90.17 281.178 90)
+    (at 94.99092 61.98108 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB3D804)
@@ -14494,7 +14494,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943486)
-    (at 80.772 261.874 90)
+    (at 85.59292 42.67708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB2A96D)
@@ -14538,7 +14538,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E94346D)
-    (at 90.424 238.252 90)
+    (at 95.24492 19.05508 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EAF5F40)
@@ -14582,7 +14582,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943454)
-    (at 216.408 338.074 90)
+    (at 221.22892 118.87708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87E99)
@@ -14626,7 +14626,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E94343B)
-    (at 85.344 319.024 90)
+    (at 90.16492 99.82708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87DFD)
@@ -14670,7 +14670,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943422)
-    (at 75.946 299.974 90)
+    (at 80.76692 80.77708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87D61)
@@ -14714,7 +14714,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943409)
-    (at 71.12 280.924 90)
+    (at 75.94092 61.72708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB3D7F8)
@@ -14758,7 +14758,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9433F0)
-    (at 61.722 261.874 90)
+    (at 66.54292 42.67708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB2A961)
@@ -14802,7 +14802,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9433D7)
-    (at 71.374 238.252 90)
+    (at 76.19492 19.05508 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EAEE73B)
@@ -14846,7 +14846,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9433BE)
-    (at 49.784 338.074 90)
+    (at 54.60492 118.87708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87E8D)
@@ -14890,7 +14890,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9433A5)
-    (at 66.294 319.024 90)
+    (at 71.11492 99.82708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87DF1)
@@ -14934,7 +14934,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E94338C)
-    (at 56.896 299.974 90)
+    (at 61.71692 80.77708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87D55)
@@ -14978,7 +14978,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943373)
-    (at 52.07 281.178 90)
+    (at 56.89092 61.98108 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB3D7EC)
@@ -15022,7 +15022,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E94335A)
-    (at 42.672 261.874 90)
+    (at 47.49292 42.67708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB2A955)
@@ -15066,7 +15066,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9973F4)
-    (at 52.324 238.252 90)
+    (at 57.14492 19.05508 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EAE8FEC)
@@ -15110,7 +15110,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E943328)
-    (at 254.508 338.074 90)
+    (at 259.32892 118.87708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87E81)
@@ -15154,7 +15154,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9BF5A9)
-    (at 266.192 319.024 90)
+    (at 271.01292 99.82708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87DE5)
@@ -15198,7 +15198,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9432F6)
-    (at 30.734 299.974 90)
+    (at 35.55492 80.77708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB87D49)
@@ -15242,7 +15242,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9432DD)
-    (at 28.194 280.924 90)
+    (at 33.01492 61.72708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB3D7E0)
@@ -15286,7 +15286,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9432C4)
-    (at 23.622 261.874 90)
+    (at 28.44292 42.67708 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EB2A949)
@@ -15330,7 +15330,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 5E9432AB)
-    (at 23.622 238.252 90)
+    (at 28.44292 19.05508 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /5EADCAC8)
@@ -15374,7 +15374,7 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE50CD5) (tstamp 5E943292)
-    (at 0.545 165.07)
+    (at -14.74216 13.3604 180)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (path /5EAA32F2)
@@ -15415,9 +15415,9 @@
     (fp_text user %R (at 4.11 0) (layer F.Fab)
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
-    (pad 2 thru_hole oval (at 7.62 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 7.62 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 5 Keeb_3.3V))
-    (pad 1 thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 180) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 4 5V_1000u))
     (model ${KISYS3DMOD}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl
       (at (xyz 0 0 0))
@@ -15426,13 +15426,13 @@
     )
   )
 
-  (module Diode_SMD:D_SMB (layer F.Cu) (tedit 58645DF3) (tstamp 5E943273)
-    (at 33.035 162.52)
+  (module Diode_SMD:D_SMB (layer F.Cu) (tedit 58645DF3) (tstamp 5F151C34)
+    (at -17.41932 3.85064 180)
     (descr "Diode SMB (DO-214AA)")
     (tags "Diode SMB (DO-214AA)")
     (path /5EAA32CB)
     (attr smd)
-    (fp_text reference D5 (at 0 -3) (layer F.SilkS)
+    (fp_text reference D5 (at -5.08 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value B260 (at 0 3.1) (layer F.Fab)
@@ -15458,9 +15458,9 @@
     (fp_text user %R (at 0 -3) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 2 smd rect (at 2.15 0) (size 2.5 2.3) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 2.15 0 180) (size 2.5 2.3) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (pad 1 smd rect (at -2.15 0) (size 2.5 2.3) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -2.15 0 180) (size 2.5 2.3) (layers F.Cu F.Paste F.Mask)
       (net 4 5V_1000u))
     (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_SMB.wrl
       (at (xyz 0 0 0))
@@ -15470,14 +15470,14 @@
   )
 
   (module Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal (layer F.Cu) (tedit 5AE50CD5) (tstamp 5E94323C)
-    (at 11.315 161.52)
+    (at -34.04108 8.39216 270)
     (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
     (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
     (path /644B8699)
-    (fp_text reference D3 (at 3.81 -2.12) (layer F.SilkS)
+    (fp_text reference D3 (at 3.81 0 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1N914 (at 3.81 2.12) (layer F.Fab)
+    (fp_text value 1N914 (at 3.81 2.12 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 8.67 -1.25) (end -1.05 -1.25) (layer F.CrtYd) (width 0.05))
@@ -15502,18 +15502,18 @@
     (fp_line (start 5.81 1) (end 5.81 -1) (layer F.Fab) (width 0.1))
     (fp_line (start 1.81 1) (end 5.81 1) (layer F.Fab) (width 0.1))
     (fp_line (start 1.81 -1) (end 1.81 1) (layer F.Fab) (width 0.1))
-    (fp_text user K (at 0 -1.8) (layer F.SilkS)
+    (fp_text user K (at 0 2.54 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user K (at 0 -1.8) (layer F.Fab)
+    (fp_text user K (at 0 -1.8 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 4.11 0) (layer F.Fab)
+    (fp_text user %R (at 4.11 0 90) (layer F.Fab)
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
-    (pad 2 thru_hole oval (at 7.62 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad 2 thru_hole oval (at 7.62 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 Case))
-    (pad 1 thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
+    (pad 1 thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 3 "Net-(C20-Pad1)"))
     (model ${KISYS3DMOD}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl
       (at (xyz 0 0 0))
@@ -15523,7 +15523,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E9431E6)
-    (at 290.83 244.094 270)
+    (at 295.65092 24.89708 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /623AA542)
@@ -15561,15 +15561,15 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5E9431D3)
-    (at 206.12 159.14)
+    (at -22.36216 9.5504 90)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /5EAA32DB)
     (attr smd)
-    (fp_text reference C144 (at 0 -1.58) (layer F.SilkS)
+    (fp_text reference C144 (at 0.007657 -2.85738 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at 0 1.58) (layer F.Fab)
+    (fp_text value 100n (at 0 1.58 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.7 0.88) (end -1.7 0.88) (layer F.CrtYd) (width 0.05))
@@ -15584,12 +15584,12 @@
     (fp_line (start -1 -0.3125) (end -1 0.625) (layer F.Fab) (width 0.1))
     (fp_line (start -0.6875 -0.625) (end -1 -0.3125) (layer F.Fab) (width 0.1))
     (fp_line (start 1 -0.625) (end -0.6875 -0.625) (layer F.Fab) (width 0.1))
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (pad 2 smd roundrect (at 0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
+    (pad 2 smd roundrect (at 0.8875 0 90) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
       (net 1 GND))
-    (pad 1 smd roundrect (at -0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
+    (pad 1 smd roundrect (at -0.8875 0 90) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
       (net 5 Keeb_3.3V))
     (model ${KISYS3DMOD}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-2012-15_AVX-P.wrl
       (at (xyz 0 0 0))
@@ -15599,12 +15599,12 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5E9431C0)
-    (at 251.975 161.24)
+    (at -17.27708 6.985 180)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /5EAA32E1)
     (attr smd)
-    (fp_text reference C143 (at 0 -1.58) (layer F.SilkS)
+    (fp_text reference C143 (at -3.81 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 1.58) (layer F.Fab)
@@ -15625,9 +15625,9 @@
     (fp_text user %R (at 0 0) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (pad 2 smd roundrect (at 0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
+    (pad 2 smd roundrect (at 0.8875 0 180) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
       (net 1 GND))
-    (pad 1 smd roundrect (at -0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
+    (pad 1 smd roundrect (at -0.8875 0 180) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
       (net 4 5V_1000u))
     (model ${KISYS3DMOD}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-2012-15_AVX-P.wrl
       (at (xyz 0 0 0))
@@ -15637,7 +15637,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E943102)
-    (at 18.288 343.916 270)
+    (at 23.10892 124.71908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /614BE999)
@@ -15675,7 +15675,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E9430EF)
-    (at 41.91 343.916 270)
+    (at 46.73092 124.71908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /614BE993)
@@ -15713,7 +15713,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E9430DC)
-    (at 65.786 343.916 270)
+    (at 70.60692 124.71908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /614BE98D)
@@ -15751,7 +15751,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E9430C9)
-    (at 87.376 338.074 270)
+    (at 92.19692 118.87708 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6144DE7C)
@@ -15789,7 +15789,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E9430B6)
-    (at 121.412 338.074 270)
+    (at 126.23292 118.87708 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6144DE76)
@@ -15827,7 +15827,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E9430A3)
-    (at 138.684 343.662 270)
+    (at 143.50492 124.46508 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6144DE70)
@@ -15865,7 +15865,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E9E2795)
-    (at 155.448 338.074 270)
+    (at 160.26892 118.87708 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6144DE6A)
@@ -15903,7 +15903,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E94307D)
-    (at 190.5 338.074 270)
+    (at 195.32092 118.87708 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6144DE64)
@@ -15941,7 +15941,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E94306A)
-    (at 209.042 343.916 270)
+    (at 213.86292 124.71908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6144DE5E)
@@ -15979,7 +15979,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E943057)
-    (at 227.838 343.916 270)
+    (at 232.65892 124.71908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /612AA662)
@@ -16017,7 +16017,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E943044)
-    (at 246.888 343.916 270)
+    (at 251.70892 124.71908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /612AA65C)
@@ -16055,7 +16055,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E943031)
-    (at 273.05 348.742 270)
+    (at 277.87092 129.54508 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /612AA656)
@@ -16093,7 +16093,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E94301E)
-    (at 292.1 348.742 270)
+    (at 296.92092 129.54508 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /61241404)
@@ -16131,7 +16131,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E94300B)
-    (at 311.15 348.742 270)
+    (at 315.97092 129.54508 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /612410C7)
@@ -16169,7 +16169,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942FF8)
-    (at 315.976 324.866 270)
+    (at 320.79692 105.66908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /60DBC499)
@@ -16207,7 +16207,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942FE5)
-    (at 292.1 329.692 270)
+    (at 296.92092 110.49508 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC191)
@@ -16245,7 +16245,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942FD2)
-    (at 258.826 324.866 270)
+    (at 263.64692 105.66908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC18B)
@@ -16283,7 +16283,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942FBF)
-    (at 230.124 324.866 270)
+    (at 234.94492 105.66908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC185)
@@ -16321,7 +16321,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942FAC)
-    (at 211.074 324.866 270)
+    (at 215.89492 105.66908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC17F)
@@ -16359,7 +16359,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942F99)
-    (at 192.024 324.866 270)
+    (at 196.84492 105.66908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC179)
@@ -16397,7 +16397,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942F86)
-    (at 172.974 324.866 270)
+    (at 177.79492 105.66908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC173)
@@ -16435,7 +16435,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942F73)
-    (at 153.924 324.866 270)
+    (at 158.74492 105.66908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC16D)
@@ -16473,7 +16473,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942F60)
-    (at 134.874 324.866 270)
+    (at 139.69492 105.66908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC167)
@@ -16511,7 +16511,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942F4D)
-    (at 115.824 324.866 270)
+    (at 120.64492 105.66908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC161)
@@ -16549,7 +16549,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942F3A)
-    (at 96.774 324.866 270)
+    (at 101.59492 105.66908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC15B)
@@ -16587,7 +16587,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942F27)
-    (at 77.724 325.12 270)
+    (at 82.54492 105.92308 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC155)
@@ -16625,7 +16625,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942F14)
-    (at 58.674 324.866 270)
+    (at 63.49492 105.66908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC14F)
@@ -16663,7 +16663,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942F01)
-    (at 27.686 324.866 270)
+    (at 32.50692 105.66908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC149)
@@ -16701,7 +16701,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942EEE)
-    (at 23.114 305.816 270)
+    (at 27.93492 86.61908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC143)
@@ -16739,7 +16739,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942EDB)
-    (at 49.276 305.816 270)
+    (at 54.09692 86.61908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC13D)
@@ -16777,7 +16777,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942EC8)
-    (at 68.326 305.816 270)
+    (at 73.14692 86.61908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC137)
@@ -16815,7 +16815,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942EB5)
-    (at 87.376 305.816 270)
+    (at 92.19692 86.61908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC131)
@@ -16853,7 +16853,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942EA2)
-    (at 106.426 305.816 270)
+    (at 111.24692 86.61908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC12B)
@@ -16891,7 +16891,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942E8F)
-    (at 125.476 305.816 270)
+    (at 130.29692 86.61908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC125)
@@ -16929,7 +16929,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942E7C)
-    (at 144.526 305.816 270)
+    (at 149.34692 86.61908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC11F)
@@ -16967,7 +16967,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942E69)
-    (at 163.576 305.816 270)
+    (at 168.39692 86.61908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC119)
@@ -17005,7 +17005,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942E56)
-    (at 182.626 306.07 270)
+    (at 187.44692 86.87308 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC113)
@@ -17043,7 +17043,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942E43)
-    (at 201.676 306.07 270)
+    (at 206.49692 86.87308 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC10D)
@@ -17081,7 +17081,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942E30)
-    (at 220.726 305.816 270)
+    (at 225.54692 86.61908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /615BC107)
@@ -17119,7 +17119,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942E1D)
-    (at 239.776 305.816 270)
+    (at 244.59692 86.61908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB8A)
@@ -17157,7 +17157,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942E0A)
-    (at 270.764 305.816 270)
+    (at 275.58492 86.61908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB84)
@@ -17195,7 +17195,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942DF7)
-    (at 315.976 305.816 270)
+    (at 320.79692 86.61908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB7E)
@@ -17233,7 +17233,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942DE4)
-    (at 315.976 286.766 270)
+    (at 320.79692 67.56908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB78)
@@ -17271,7 +17271,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942DD1)
-    (at 277.876 287.02 270)
+    (at 282.69692 67.82308 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB72)
@@ -17309,7 +17309,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942DBE)
-    (at 254 286.766 270)
+    (at 258.82092 67.56908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB6C)
@@ -17347,7 +17347,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942DAB)
-    (at 234.95 286.766 270)
+    (at 239.77092 67.56908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB66)
@@ -17385,7 +17385,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942D98)
-    (at 215.9 286.766 270)
+    (at 220.72092 67.56908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB60)
@@ -17423,7 +17423,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942D85)
-    (at 196.85 286.766 270)
+    (at 201.67092 67.56908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB5A)
@@ -17461,7 +17461,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942D72)
-    (at 177.8 286.766 270)
+    (at 182.62092 67.56908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB54)
@@ -17499,7 +17499,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942D5F)
-    (at 158.75 286.766 270)
+    (at 163.57092 67.56908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB4E)
@@ -17537,7 +17537,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942D4C)
-    (at 139.7 286.766 270)
+    (at 144.52092 67.56908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB48)
@@ -17575,7 +17575,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942D39)
-    (at 120.65 286.766 270)
+    (at 125.47092 67.56908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB42)
@@ -17613,7 +17613,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942D26)
-    (at 101.6 286.766 270)
+    (at 106.42092 67.56908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB3C)
@@ -17651,7 +17651,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942D13)
-    (at 82.55 287.02 270)
+    (at 87.37092 67.82308 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB36)
@@ -17689,7 +17689,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942D00)
-    (at 63.5 286.766 270)
+    (at 68.32092 67.56908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB30)
@@ -17727,7 +17727,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942CED)
-    (at 44.45 286.766 270)
+    (at 49.27092 67.56908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB2A)
@@ -17765,7 +17765,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942CDA)
-    (at 20.574 286.766 270)
+    (at 25.39492 67.56908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB24)
@@ -17803,7 +17803,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942CC7)
-    (at 16.002 267.716 270)
+    (at 20.82292 48.51908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB1E)
@@ -17841,7 +17841,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942CB4)
-    (at 35.052 267.716 270)
+    (at 39.87292 48.51908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB18)
@@ -17879,7 +17879,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942CA1)
-    (at 54.102 267.97 270)
+    (at 58.92292 48.77308 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB12)
@@ -17917,7 +17917,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942C8E)
-    (at 73.152 267.716 270)
+    (at 77.97292 48.51908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB0C)
@@ -17955,7 +17955,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942C7B)
-    (at 92.202 267.716 270)
+    (at 97.02292 48.51908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB06)
@@ -17993,7 +17993,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942C68)
-    (at 111.252 267.716 270)
+    (at 116.07292 48.51908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6176FB00)
@@ -18031,7 +18031,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942C55)
-    (at 130.302 267.716 270)
+    (at 135.12292 48.51908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6303C93A)
@@ -18069,7 +18069,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942C42)
-    (at 149.352 267.716 270)
+    (at 154.17292 48.51908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD99D)
@@ -18107,7 +18107,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942C2F)
-    (at 168.402 267.716 270)
+    (at 173.22292 48.51908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD997)
@@ -18145,7 +18145,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942C1C)
-    (at 187.452 267.716 270)
+    (at 192.27292 48.51908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD991)
@@ -18182,46 +18182,8 @@
     )
   )
 
-  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5E942C09)
-    (at 238.265 162.005)
-    (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
-    (tags "capacitor tantalum")
-    (path /617DD98B)
-    (attr smd)
-    (fp_text reference C66 (at 0 -1.58) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 0.1u (at 0 1.58) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start 1.7 0.88) (end -1.7 0.88) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 1.7 -0.88) (end 1.7 0.88) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.7 -0.88) (end 1.7 -0.88) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.7 0.88) (end -1.7 -0.88) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.71 0.785) (end 1 0.785) (layer F.SilkS) (width 0.12))
-    (fp_line (start -1.71 -0.785) (end -1.71 0.785) (layer F.SilkS) (width 0.12))
-    (fp_line (start 1 -0.785) (end -1.71 -0.785) (layer F.SilkS) (width 0.12))
-    (fp_line (start 1 0.625) (end 1 -0.625) (layer F.Fab) (width 0.1))
-    (fp_line (start -1 0.625) (end 1 0.625) (layer F.Fab) (width 0.1))
-    (fp_line (start -1 -0.3125) (end -1 0.625) (layer F.Fab) (width 0.1))
-    (fp_line (start -0.6875 -0.625) (end -1 -0.3125) (layer F.Fab) (width 0.1))
-    (fp_line (start 1 -0.625) (end -0.6875 -0.625) (layer F.Fab) (width 0.1))
-    (fp_text user %R (at 0 0) (layer F.Fab)
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-    (pad 2 smd roundrect (at 0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
-      (net 1 GND))
-    (pad 1 smd roundrect (at -0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
-      (net 4 5V_1000u))
-    (model ${KISYS3DMOD}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-2012-15_AVX-P.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942BF6)
-    (at 206.502 267.716 270)
+    (at 211.32292 48.51908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD985)
@@ -18259,7 +18221,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942BE3)
-    (at 225.552 267.716 270)
+    (at 230.37292 48.51908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD97F)
@@ -18297,7 +18259,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942BD0)
-    (at 244.602 267.716 270)
+    (at 249.42292 48.51908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD979)
@@ -18335,7 +18297,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942BBD)
-    (at 273.05 267.97 270)
+    (at 277.87092 48.77308 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD973)
@@ -18373,7 +18335,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942BAA)
-    (at 316.23 267.716 270)
+    (at 321.05092 48.51908 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD96D)
@@ -18411,7 +18373,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942B97)
-    (at 282.702 244.094 270)
+    (at 287.52292 24.89708 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD967)
@@ -18449,7 +18411,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942B84)
-    (at 263.652 244.094 270)
+    (at 268.47292 24.89708 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD961)
@@ -18487,7 +18449,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942B71)
-    (at 244.348 244.094 270)
+    (at 249.16892 24.89708 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD95B)
@@ -18525,7 +18487,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942B5E)
-    (at 225.298 244.094 270)
+    (at 230.11892 24.89708 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD955)
@@ -18563,7 +18525,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942B4B)
-    (at 206.248 244.094 270)
+    (at 211.06892 24.89708 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD94F)
@@ -18601,7 +18563,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942B38)
-    (at 182.626 244.094 270)
+    (at 187.44692 24.89708 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD949)
@@ -18639,7 +18601,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942B25)
-    (at 163.576 244.094 270)
+    (at 168.39692 24.89708 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD943)
@@ -18677,7 +18639,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942B12)
-    (at 144.526 244.094 270)
+    (at 149.34692 24.89708 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD93D)
@@ -18715,7 +18677,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942AFF)
-    (at 125.476 244.094 270)
+    (at 130.29692 24.89708 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD937)
@@ -18753,7 +18715,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942AEC)
-    (at 101.6 244.094 270)
+    (at 106.42092 24.89708 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD931)
@@ -18791,7 +18753,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942AD9)
-    (at 82.55 244.094 270)
+    (at 87.37092 24.89708 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD92B)
@@ -18829,7 +18791,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942AC6)
-    (at 63.754 244.094 270)
+    (at 68.57492 24.89708 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD925)
@@ -18867,7 +18829,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942AB3)
-    (at 44.45 244.094 270)
+    (at 49.27092 24.89708 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD91F)
@@ -18905,7 +18867,7 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer B.Cu) (tedit 5B301BBE) (tstamp 5E942AA0)
-    (at 16.002 244.094 270)
+    (at 20.82292 24.89708 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /617DD919)
@@ -18942,8 +18904,8 @@
     )
   )
 
-  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5E942A41)
-    (at -38.862 230.124 90)
+  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5F15EF44)
+    (at -6.26364 11.32332 90)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /639F43C0)
@@ -18981,53 +18943,15 @@
   )
 
   (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5E94289F)
-    (at 224.17 180)
+    (at -28.96108 9.66216 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /6455D320)
     (attr smd)
-    (fp_text reference C20 (at 0 -1.58) (layer F.SilkS)
+    (fp_text reference C20 (at 3.16484 -0.0508 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 4.7n (at 0 1.58) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start 1.7 0.88) (end -1.7 0.88) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 1.7 -0.88) (end 1.7 0.88) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.7 -0.88) (end 1.7 -0.88) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.7 0.88) (end -1.7 -0.88) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.71 0.785) (end 1 0.785) (layer F.SilkS) (width 0.12))
-    (fp_line (start -1.71 -0.785) (end -1.71 0.785) (layer F.SilkS) (width 0.12))
-    (fp_line (start 1 -0.785) (end -1.71 -0.785) (layer F.SilkS) (width 0.12))
-    (fp_line (start 1 0.625) (end 1 -0.625) (layer F.Fab) (width 0.1))
-    (fp_line (start -1 0.625) (end 1 0.625) (layer F.Fab) (width 0.1))
-    (fp_line (start -1 -0.3125) (end -1 0.625) (layer F.Fab) (width 0.1))
-    (fp_line (start -0.6875 -0.625) (end -1 -0.3125) (layer F.Fab) (width 0.1))
-    (fp_line (start 1 -0.625) (end -0.6875 -0.625) (layer F.Fab) (width 0.1))
-    (fp_text user %R (at 0 0) (layer F.Fab)
-      (effects (font (size 0.5 0.5) (thickness 0.08)))
-    )
-    (pad 2 smd roundrect (at 0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
-      (net 1 GND))
-    (pad 1 smd roundrect (at -0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
-      (net 3 "Net-(C20-Pad1)"))
-    (model ${KISYS3DMOD}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-2012-15_AVX-P.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
-  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5E942807)
-    (at -14.478 240.03 270)
-    (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
-    (tags "capacitor tantalum")
-    (path /5EABE33A)
-    (attr smd)
-    (fp_text reference C12 (at 0 -1.58 90) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value 100n (at 0 1.58 90) (layer F.Fab)
+    (fp_text value 4.7n (at 0 1.58 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.7 0.88) (end -1.7 0.88) (layer F.CrtYd) (width 0.05))
@@ -19046,8 +18970,46 @@
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
     (pad 2 smd roundrect (at 0.8875 0 270) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
-      (net 5 Keeb_3.3V))
+      (net 1 GND))
     (pad 1 smd roundrect (at -0.8875 0 270) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
+      (net 3 "Net-(C20-Pad1)"))
+    (model ${KISYS3DMOD}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-2012-15_AVX-P.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5E942807)
+    (at -31.20136 21.21408)
+    (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
+    (tags "capacitor tantalum")
+    (path /5EABE33A)
+    (attr smd)
+    (fp_text reference C12 (at -3.348794 0.007462) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 100n (at 0 1.58) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start 1.7 0.88) (end -1.7 0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 1.7 -0.88) (end 1.7 0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.7 -0.88) (end 1.7 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.7 0.88) (end -1.7 -0.88) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.71 0.785) (end 1 0.785) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.71 -0.785) (end -1.71 0.785) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1 -0.785) (end -1.71 -0.785) (layer F.SilkS) (width 0.12))
+    (fp_line (start 1 0.625) (end 1 -0.625) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 0.625) (end 1 0.625) (layer F.Fab) (width 0.1))
+    (fp_line (start -1 -0.3125) (end -1 0.625) (layer F.Fab) (width 0.1))
+    (fp_line (start -0.6875 -0.625) (end -1 -0.3125) (layer F.Fab) (width 0.1))
+    (fp_line (start 1 -0.625) (end -0.6875 -0.625) (layer F.Fab) (width 0.1))
+    (fp_text user %R (at 0 0) (layer F.Fab)
+      (effects (font (size 0.5 0.5) (thickness 0.08)))
+    )
+    (pad 2 smd roundrect (at 0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
+      (net 5 Keeb_3.3V))
+    (pad 1 smd roundrect (at -0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
       (net 1 GND))
     (model ${KISYS3DMOD}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-2012-15_AVX-P.wrl
       (at (xyz 0 0 0))
@@ -19056,8 +19018,8 @@
     )
   )
 
-  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5E9427F4)
-    (at -27.432 230.378 270)
+  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5F15EF0E)
+    (at 5.67436 11.57732 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /5EA75D65)
@@ -19094,13 +19056,13 @@
     )
   )
 
-  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5E9427BB)
-    (at 238.7 149.72)
+  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5F15252F)
+    (at -31.20136 26.29408 180)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /5EA0B360)
     (attr smd)
-    (fp_text reference C8 (at 0 -1.58) (layer F.SilkS)
+    (fp_text reference C8 (at 2.54 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1u (at 0 1.58) (layer F.Fab)
@@ -19121,9 +19083,9 @@
     (fp_text user %R (at 0 0) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (pad 2 smd roundrect (at 0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
+    (pad 2 smd roundrect (at 0.8875 0 180) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
       (net 1 GND))
-    (pad 1 smd roundrect (at -0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
+    (pad 1 smd roundrect (at -0.8875 0 180) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
       (net 5 Keeb_3.3V))
     (model ${KISYS3DMOD}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-2012-15_AVX-P.wrl
       (at (xyz 0 0 0))
@@ -19132,13 +19094,13 @@
     )
   )
 
-  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5E9427A8)
-    (at 211.32 199.955)
+  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5F152421)
+    (at -31.20136 23.75408 180)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /5EA0B35A)
     (attr smd)
-    (fp_text reference C7 (at 0 -1.58) (layer F.SilkS)
+    (fp_text reference C7 (at 2.54 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10n (at 0 1.58) (layer F.Fab)
@@ -19159,9 +19121,9 @@
     (fp_text user %R (at 0 0) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (pad 2 smd roundrect (at 0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
+    (pad 2 smd roundrect (at 0.8875 0 180) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
       (net 1 GND))
-    (pad 1 smd roundrect (at -0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
+    (pad 1 smd roundrect (at -0.8875 0 180) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
       (net 5 Keeb_3.3V))
     (model ${KISYS3DMOD}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-2012-15_AVX-P.wrl
       (at (xyz 0 0 0))
@@ -19170,13 +19132,13 @@
     )
   )
 
-  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5E942795)
-    (at 233.09 185.96)
+  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5F1524F9)
+    (at -15.96136 26.29408)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /5EA062E2)
     (attr smd)
-    (fp_text reference C6 (at 0 -1.58) (layer F.SilkS)
+    (fp_text reference C6 (at 2.54 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 4.7u (at 0 1.58) (layer F.Fab)
@@ -19208,13 +19170,13 @@
     )
   )
 
-  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5E942782)
-    (at 209.735 173.8)
+  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5F1524C3)
+    (at -15.96136 23.75408)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /5EA062DC)
     (attr smd)
-    (fp_text reference C5 (at 0 -1.58) (layer F.SilkS)
+    (fp_text reference C5 (at 2.54 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100n (at 0 1.58) (layer F.Fab)
@@ -19246,13 +19208,13 @@
     )
   )
 
-  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5E94276F)
-    (at 234.22 157.74)
+  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5F15248D)
+    (at -15.96136 21.21408)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /5EA027AF)
     (attr smd)
-    (fp_text reference C4 (at 0 -1.58) (layer F.SilkS)
+    (fp_text reference C4 (at 2.54 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 4.7u (at 0 1.58) (layer F.Fab)
@@ -19284,16 +19246,16 @@
     )
   )
 
-  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5E94275C)
-    (at 237.58 181.5)
+  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5F152457)
+    (at -26.12136 31.37408 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /5EA023F5)
     (attr smd)
-    (fp_text reference C3 (at 0 -1.58) (layer F.SilkS)
+    (fp_text reference C3 (at 2.54 0 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at 0 1.58) (layer F.Fab)
+    (fp_text value 100n (at 0 1.58 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.7 0.88) (end -1.7 0.88) (layer F.CrtYd) (width 0.05))
@@ -19308,12 +19270,12 @@
     (fp_line (start -1 -0.3125) (end -1 0.625) (layer F.Fab) (width 0.1))
     (fp_line (start -0.6875 -0.625) (end -1 -0.3125) (layer F.Fab) (width 0.1))
     (fp_line (start 1 -0.625) (end -0.6875 -0.625) (layer F.Fab) (width 0.1))
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (pad 2 smd roundrect (at 0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
+    (pad 2 smd roundrect (at 0.8875 0 270) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
       (net 1 GND))
-    (pad 1 smd roundrect (at -0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
+    (pad 1 smd roundrect (at -0.8875 0 270) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
       (net 5 Keeb_3.3V))
     (model ${KISYS3DMOD}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-2012-15_AVX-P.wrl
       (at (xyz 0 0 0))
@@ -19322,16 +19284,16 @@
     )
   )
 
-  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5E942749)
-    (at 228.49 171.57)
+  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5F1523EB)
+    (at -23.58136 31.37408 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /5EA02078)
     (attr smd)
-    (fp_text reference C2 (at 0 -1.58) (layer F.SilkS)
+    (fp_text reference C2 (at 2.54 0 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at 0 1.58) (layer F.Fab)
+    (fp_text value 100n (at 0 1.58 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.7 0.88) (end -1.7 0.88) (layer F.CrtYd) (width 0.05))
@@ -19346,12 +19308,12 @@
     (fp_line (start -1 -0.3125) (end -1 0.625) (layer F.Fab) (width 0.1))
     (fp_line (start -0.6875 -0.625) (end -1 -0.3125) (layer F.Fab) (width 0.1))
     (fp_line (start 1 -0.625) (end -0.6875 -0.625) (layer F.Fab) (width 0.1))
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (pad 2 smd roundrect (at 0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
+    (pad 2 smd roundrect (at 0.8875 0 270) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
       (net 1 GND))
-    (pad 1 smd roundrect (at -0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
+    (pad 1 smd roundrect (at -0.8875 0 270) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
       (net 5 Keeb_3.3V))
     (model ${KISYS3DMOD}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-2012-15_AVX-P.wrl
       (at (xyz 0 0 0))
@@ -19360,16 +19322,16 @@
     )
   )
 
-  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5E942736)
-    (at 228.6 180.34)
+  (module Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P (layer F.Cu) (tedit 5B301BBE) (tstamp 5F1523B5)
+    (at -21.04136 31.37408 270)
     (descr "Tantalum Capacitor SMD AVX-P (2012-15 Metric), IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/40182/tmch.pdf), generated with kicad-footprint-generator")
     (tags "capacitor tantalum")
     (path /5E9FEDD4)
     (attr smd)
-    (fp_text reference C1 (at 0 -1.58) (layer F.SilkS)
+    (fp_text reference C1 (at 2.54 0 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 100n (at 0 1.58) (layer F.Fab)
+    (fp_text value 100n (at 0 1.58 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 1.7 0.88) (end -1.7 0.88) (layer F.CrtYd) (width 0.05))
@@ -19384,12 +19346,12 @@
     (fp_line (start -1 -0.3125) (end -1 0.625) (layer F.Fab) (width 0.1))
     (fp_line (start -0.6875 -0.625) (end -1 -0.3125) (layer F.Fab) (width 0.1))
     (fp_line (start 1 -0.625) (end -0.6875 -0.625) (layer F.Fab) (width 0.1))
-    (fp_text user %R (at 0 0) (layer F.Fab)
+    (fp_text user %R (at 0 0 90) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
-    (pad 2 smd roundrect (at 0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
+    (pad 2 smd roundrect (at 0.8875 0 270) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
       (net 1 GND))
-    (pad 1 smd roundrect (at -0.8875 0) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
+    (pad 1 smd roundrect (at -0.8875 0 270) (size 1.125 1.05) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.238095)
       (net 5 Keeb_3.3V))
     (model ${KISYS3DMOD}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-2012-15_AVX-P.wrl
       (at (xyz 0 0 0))
@@ -19398,15 +19360,15 @@
     )
   )
 
-  (gr_line (start 335.026 357.124) (end -41.275 357.124) (layer B.SilkS) (width 0.12) (tstamp 5EB7B58C))
-  (gr_text Caps (at 321.056 235.458) (layer F.Cu)
+  (gr_line (start 340 138) (end -36 138) (layer Edge.Cuts) (width 0.12) (tstamp 5EB7B58C))
+  (gr_text Caps (at 325.87692 16.26108) (layer F.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text Power (at 311.15 235.458) (layer F.Cu)
+  (gr_text Power (at 315.97092 16.26108) (layer F.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_line (start 335.026 357.124) (end 335.026 219.202) (layer B.SilkS) (width 0.12) (tstamp 5E9E92E0))
-  (gr_line (start 335.026 219.202) (end -41.275 219.202) (layer B.SilkS) (width 0.12) (tstamp 5E9E9095))
-  (gr_line (start -41.275 219.202) (end -41.275 357.124) (layer B.SilkS) (width 0.12) (tstamp 5EB7B468))
+  (gr_line (start 340 138) (end 340 0) (layer Edge.Cuts) (width 0.12) (tstamp 5E9E92E0))
+  (gr_line (start 340 0) (end -36 0) (layer Edge.Cuts) (width 0.12) (tstamp 5E9E9095))
+  (gr_line (start -36.45408 0) (end -36.45408 138) (layer Edge.Cuts) (width 0.12) (tstamp 5F15F038))
 
 )
