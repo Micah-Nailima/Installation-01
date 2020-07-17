@@ -7,4 +7,5 @@
   (lib (name SSD1306_OLED-0.91-128x32)(type Legacy)(uri ${IN01LIB}/Libraries/Display.pretty/SSD1306_OLED-0.91-128x32.lib)(options "")(descr ""))
   (lib (name acheronSymbols)(type Legacy)(uri ${IN01LIB}/Libraries/AcheronLibrary/symbols/acheronSymbols.lib)(options "")(descr ""))
   (lib (name ws2812b)(type Legacy)(uri ${IN01LIB}/Libraries/WS2812B.pretty/Schematic-Symbol/ws2812b.lib)(options "")(descr ""))
+  (lib (name Installation-01-rescue)(type Legacy)(uri ${KIPRJMOD}/Installation-01-rescue.lib)(options "")(descr ""))
 )
