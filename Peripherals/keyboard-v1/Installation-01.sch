@@ -4689,116 +4689,6 @@ F 3 "~" H 23200 12850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H1
-U 1 1 63E6633A
-P 20200 7850
-F 0 "H1" V 20154 8000 50  0000 L CNN
-F 1 "MountingHole_Pad" V 20245 8000 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 20200 7850 50  0001 C CNN
-F 3 "~" H 20200 7850 50  0001 C CNN
-	1    20200 7850
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 63E695B6
-P 20250 8050
-F 0 "H2" H 20350 8096 50  0000 L CNN
-F 1 "MountingHole" H 20350 8005 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 20250 8050 50  0001 C CNN
-F 3 "~" H 20250 8050 50  0001 C CNN
-	1    20250 8050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 63E6C1F7
-P 20250 8250
-F 0 "H3" H 20350 8296 50  0000 L CNN
-F 1 "MountingHole" H 20350 8205 50  0000 L CNN
-F 2 "acheron_MountingHoles:halfSideHole" H 20250 8250 50  0001 C CNN
-F 3 "~" H 20250 8250 50  0001 C CNN
-	1    20250 8250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 63F0BE48
-P 20250 8450
-F 0 "H4" H 20350 8496 50  0000 L CNN
-F 1 "MountingHole" H 20350 8405 50  0000 L CNN
-F 2 "acheron_MountingHoles:halfSideHole" H 20250 8450 50  0001 C CNN
-F 3 "~" H 20250 8450 50  0001 C CNN
-	1    20250 8450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H5
-U 1 1 63FABAC8
-P 20250 8650
-F 0 "H5" H 20350 8696 50  0000 L CNN
-F 1 "MountingHole" H 20350 8605 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 20250 8650 50  0001 C CNN
-F 3 "~" H 20250 8650 50  0001 C CNN
-	1    20250 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 6404B7A4
-P 20250 8850
-F 0 "H6" H 20350 8896 50  0000 L CNN
-F 1 "MountingHole" H 20350 8805 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 20250 8850 50  0001 C CNN
-F 3 "~" H 20250 8850 50  0001 C CNN
-	1    20250 8850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H7
-U 1 1 640EB3BA
-P 20250 9050
-F 0 "H7" H 20350 9096 50  0000 L CNN
-F 1 "MountingHole" H 20350 9005 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 20250 9050 50  0001 C CNN
-F 3 "~" H 20250 9050 50  0001 C CNN
-	1    20250 9050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H8
-U 1 1 6418B100
-P 20250 9250
-F 0 "H8" H 20350 9296 50  0000 L CNN
-F 1 "MountingHole" H 20350 9205 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 20250 9250 50  0001 C CNN
-F 3 "~" H 20250 9250 50  0001 C CNN
-	1    20250 9250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H9
-U 1 1 6422AC47
-P 20250 9450
-F 0 "H9" H 20350 9496 50  0000 L CNN
-F 1 "MountingHole" H 20350 9405 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 20250 9450 50  0001 C CNN
-F 3 "~" H 20250 9450 50  0001 C CNN
-	1    20250 9450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H10
-U 1 1 642CA7E6
-P 20250 9650
-F 0 "H10" H 20350 9696 50  0000 L CNN
-F 1 "MountingHole" H 20350 9605 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 20250 9650 50  0001 C CNN
-F 3 "~" H 20250 9650 50  0001 C CNN
-	1    20250 9650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Diode:1N914 D3
 U 1 1 644B8699
 P 22550 11700
@@ -5433,8 +5323,6 @@ Text GLabel 22450 13350 0    50   BiDi ~ 0
 DBUS-
 Text GLabel 23650 13350 2    50   BiDi ~ 0
 DBUS+
-Text GLabel 20100 7850 0    50   Input ~ 0
-CASE
 Text GLabel 22400 11700 0    50   Input ~ 0
 Case
 Text GLabel 24100 7550 2    50   Input ~ 0
@@ -5477,8 +5365,6 @@ Text Notes 15550 1000 0    50   ~ 0
 WS2812B RGB \nBacklight Matrix
 Text Notes 22100 11450 0    50   ~ 0
 Case ESD
-Text Notes 19900 7750 0    50   ~ 0
-Mounting Holes
 Text Notes 22100 12550 0    50   ~ 0
 USB ESD Protection
 Text Notes 19900 11750 0    50   ~ 0
@@ -7148,14 +7034,6 @@ Wire Notes Line
 Wire Notes Line
 	22050 14250 22050 12450
 Wire Notes Line
-	19850 7650 19850 9800
-Wire Notes Line
-	19850 9800 21050 9800
-Wire Notes Line
-	21050 9800 21050 7650
-Wire Notes Line
-	21050 7650 19850 7650
-Wire Notes Line
 	19850 14250 21950 14250
 Wire Notes Line
 	21950 14250 21950 11650
@@ -8040,4 +7918,6 @@ Wire Wire Line
 	15950 9900 15950 10200
 Wire Wire Line
 	15750 9900 15750 10200
+Entry Wire Line
+	19150 12250 19250 12350
 $EndSCHEMATC

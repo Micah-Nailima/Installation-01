@@ -4546,28 +4546,6 @@ F 3 "~" H 15850 9900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C66
-U 1 1 617DD98B
-P 15850 10050
-F 0 "C66" H 15942 10096 50  0000 L CNN
-F 1 "0.1u" H 15942 10005 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P" H 15850 10050 50  0001 C CNN
-F 3 "~" H 15850 10050 50  0001 C CNN
-	1    15850 10050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C67
-U 1 1 617DD991
-P 15850 10200
-F 0 "C67" H 15942 10246 50  0000 L CNN
-F 1 "0.1u" H 15942 10155 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P" H 15850 10200 50  0001 C CNN
-F 3 "~" H 15850 10200 50  0001 C CNN
-	1    15850 10200
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:C_Small C68
 U 1 1 617DD997
 P 15850 10350
@@ -6862,12 +6840,6 @@ Wire Wire Line
 Wire Wire Line
 	15950 9900 15950 9750
 Wire Wire Line
-	15950 10050 15950 9900
-Wire Wire Line
-	15950 10200 15950 10050
-Wire Wire Line
-	15950 10350 15950 10200
-Wire Wire Line
 	15950 10500 15950 10350
 Wire Wire Line
 	15750 6950 15750 7050
@@ -6907,12 +6879,6 @@ Wire Wire Line
 	15750 9600 15750 9750
 Wire Wire Line
 	15750 9750 15750 9900
-Wire Wire Line
-	15750 9900 15750 10050
-Wire Wire Line
-	15750 10050 15750 10200
-Wire Wire Line
-	15750 10200 15750 10350
 Wire Wire Line
 	15750 10350 15750 10500
 Wire Wire Line
@@ -7541,8 +7507,6 @@ Connection ~ 15950 9450
 Connection ~ 15950 9600
 Connection ~ 15950 9750
 Connection ~ 15950 9900
-Connection ~ 15950 10050
-Connection ~ 15950 10200
 Connection ~ 15950 10350
 Connection ~ 16250 7100
 Connection ~ 15750 7200
@@ -7564,8 +7528,6 @@ Connection ~ 15750 9450
 Connection ~ 15750 9600
 Connection ~ 15750 9750
 Connection ~ 15750 9900
-Connection ~ 15750 10050
-Connection ~ 15750 10200
 Connection ~ 15750 10350
 Connection ~ 16050 7200
 Connection ~ 16050 7350
@@ -8057,4 +8019,25 @@ Text Notes 21600 10900 0    50   ~ 0
 Caps Lock LED
 Wire Notes Line
 	21550 10800 21550 11300
+Wire Wire Line
+	15750 10200 15750 10350
+Connection ~ 15750 10200
+Wire Wire Line
+	15950 10350 15950 10200
+Connection ~ 15950 10200
+$Comp
+L Device:C_Small C67
+U 1 1 617DD991
+P 15850 10200
+F 0 "C67" H 15942 10246 50  0000 L CNN
+F 1 "0.1u" H 15942 10155 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P" H 15850 10200 50  0001 C CNN
+F 3 "~" H 15850 10200 50  0001 C CNN
+	1    15850 10200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15950 9900 15950 10200
+Wire Wire Line
+	15750 9900 15750 10200
 $EndSCHEMATC

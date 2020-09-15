@@ -11,3 +11,11 @@ row 3 14 keys (last key goes to row 1)
 row 4 14 keys
 row 5 14 keys
 row 6 11 keys (2 extra leds cause spacebars)
+
+top mount or sandwich mount 
+
+case design
+
+1/8 in plate
+
+brass or pom plate
