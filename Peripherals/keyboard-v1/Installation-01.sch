@@ -5604,10 +5604,6 @@ Wire Wire Line
 Wire Wire Line
 	25650 8500 25650 9250
 Wire Wire Line
-	25650 9250 25650 10000
-Wire Wire Line
-	25650 10000 25650 10750
-Wire Wire Line
 	26000 10750 26000 10000
 Wire Wire Line
 	26000 6850 25650 6850
@@ -5745,8 +5741,6 @@ Wire Wire Line
 	29500 8500 29500 7750
 Wire Wire Line
 	29500 9250 29500 8500
-Wire Wire Line
-	29500 10000 29500 9250
 Wire Wire Line
 	29150 6850 29150 7000
 Wire Wire Line
@@ -6988,13 +6982,9 @@ Wire Wire Line
 Wire Wire Line
 	24000 7550 24100 7550
 Wire Wire Line
-	29500 10000 29500 10750
-Wire Wire Line
 	29150 10750 29150 10000
 Wire Wire Line
 	28800 10000 28800 10750
-Wire Wire Line
-	28450 10750 28450 10000
 Wire Wire Line
 	28100 10000 28100 10750
 Wire Wire Line
@@ -7163,8 +7153,6 @@ Connection ~ 29850 6850
 Connection ~ 25650 7000
 Connection ~ 25650 7750
 Connection ~ 25650 8500
-Connection ~ 25650 9250
-Connection ~ 25650 10000
 Connection ~ 26000 7000
 Connection ~ 26000 7750
 Connection ~ 26000 8500
@@ -7206,7 +7194,6 @@ Connection ~ 28450 7000
 Connection ~ 28450 7750
 Connection ~ 28450 8500
 Connection ~ 28450 9250
-Connection ~ 28450 10000
 Connection ~ 28800 7000
 Connection ~ 28800 7750
 Connection ~ 28800 8500
@@ -7221,7 +7208,6 @@ Connection ~ 29150 10000
 Connection ~ 29500 7000
 Connection ~ 29500 7750
 Connection ~ 29500 8500
-Connection ~ 29500 9250
 Connection ~ 29150 6850
 Connection ~ 25450 7550
 Connection ~ 25800 7600
@@ -7533,7 +7519,6 @@ Text GLabel 17650 10750 0    50   Input ~ 0
 E_Button2
 Text GLabel 17650 10850 0    50   Input ~ 0
 E_CCW2
-Connection ~ 29500 10000
 Wire Wire Line
 	29300 11250 29300 11350
 Connection ~ 29300 11350
@@ -7920,4 +7905,15 @@ Wire Wire Line
 	15750 9900 15750 10200
 Entry Wire Line
 	19150 12250 19250 12350
+Wire Wire Line
+	25650 10000 25650 10750
+Wire Wire Line
+	29150 10750 29500 10750
+Connection ~ 29150 10750
+Text GLabel 25650 10200 2    50   Input ~ 0
+col7
+Text GLabel 29500 10000 1    50   Input ~ 0
+col1
+Text GLabel 28450 10750 1    50   Input ~ 0
+col1
 $EndSCHEMATC
